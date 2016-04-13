@@ -1,0 +1,324 @@
+HessianPHP 2
+Binary web services for PHP 5
+http://code.google.com/p/hessianphp
+----------------------------
+
+NOTE: Documentation is still a work in progress
+
+:: INTRODUCTION
+
+The Hessian Protocol
+
+   "The Hessian binary web service protocol makes web services usable without requiring a large framework, and 
+   without learning yet another alphabet soup of protocols. Because it is a binary protocol, it is well-suited to
+   sending binary data without any need to extend the protocol with attachments." (from Caucho web site) 
+
+Hessian was created by Caucho Technology in the Java programming language. This protocol was designed to be fast
+and simple to learn and use. It uses HTTP as transport by sending and receiving POST requests to remote services.
+
+HessianPHP 2 is a complete rewrite of the original HessianPHP library published a few years ago to make it 
+compatible with the newest versions of the protocol and PHP.
+
+:: FEATURES
+
+    * PHP 5 only
+    * Hessian protocol version 1 and 2 with autodetection
+    * Supports PHP 5.3 in strict mode
+    * Can create both clients and servers
+    * Support CURL and standard http stream wrappers 
+
+:: QUICK START
+
+Requirements and Installation
+
+    * PHP 5.1+
+    * PHP enabled web server (Apache, IIS, etc.)
+    * CURL extension enabled (optional) 
+
+Download the code and place it in a directory in your web server, that's it.
+
+:: CONSUMING A HESSIAN WEB SERVICE
+
+To start consuming remote Hessian web services all you need to do is:
+
+   1. Include or require the file HessianClient?.php
+   2. Create a HessianClient? object passing the url of the service and additional options if required
+   3. Call methods 
+
+This is an example code that creates a proxy to a remote service, calls several methods and prints the results:
+
+include_once 'HessianClient.php';
+$testurl = 'http://localhost/mathService.php';
+$proxy = new HessianClient($testurl);
+try{
+    echo $proxy->div(2,5); 
+} catch (Exception $ex){
+   // ...handle error
+}
+
+:: CREATING A HESSIAN WEB SERVICE
+
+You have to create a script in the web server following this steps:
+
+   1. Include or require the file HessianService?.php.
+   2. Create a HessianService? wrapper object
+   3. Register a previously created or new object in the service constructur or by calling registerObject().
+   4. Execute the handle() method. 
+
+Thus, for example, if we want to publish a calculator service that is compatible with the previous example, we have
+to create a class something like this:
+
+class Math{    
+  function add($n1,$n2) {        
+    return $n1+$n2;    
+  }    
+  function sub($n1,$n2) {        
+    return $n1-$n2;    
+  }    
+  function mul($n1,$n2) {        
+    return $n1*$n2;    
+  }    
+  function div($n1,$n2) {        
+    return $n1/$n2;    
+  }
+}
+
+Then create the service wrapper and register a Math object to make it accesible through Hessian:
+
+include_once 'HessianService.php';
+$service = new HessianService(new Math());
+$service->handle();
+
+That's it. Now we have successfully published a Hessian web service from a common PHP object. The url of the 
+service is the same url of the script.
+
+If you try to access the url using a web browser, you will get a 500 error because Hessian requires POST to 
+operate.
+
+:: STATUS
+
+Version 2.0 is in Beta phase and is the default build. It's compatible with PHP 5.3 but still in testing. 
+Deployment requires a little over 100KB. Unit tests implemented using SimpleTest.
+
+Thanks to all people that has contributed with the whole set of Hessian implementations, we hope to help you get 
+the best of the project.
+
+HessianPHP is licensed under the MIT license, so you can comfortably use it in commercial applications.
+
+--------------------------
+ 
+:: CONFIGURING CLIENTS AND SERVERS
+
+Most configuration options can be set using the standard HessianOptions? class or an associative array, more on
+this later. Some configuration options affect general behaviour and others are aimed only to clients or servers.
+
+:: HOW TO USE THE CONFIGURATION
+
+In order to configure hessian clients or servers you can create a HessianOptions object and set its properties
+like this:
+
+$options = new HessianOptions();
+$options->version = 1;
+$options->detectVersion = false;
+$options->typeMap = array('ParamObjectJava' => 'ParamObject');
+
+Then pass it to the constructor of either server or client:
+
+$client = new HessianClient('http://localhost/remoteService', $options);
+
+Using arrays
+
+If you preffer to use arrays for configuration, you can pass an associative array where keys contain the names
+of the properties, like this:
+
+$service = new HessianService($wrappedObject, 
+  array(
+   'displayInfo' => true, 
+   'ignoreOutput'=> true
+  )
+);
+
+-------------------------------------
+:: GENERAL CONFIGURATION PROPERTIES
+
+Options that affect both client and servers.
+
+* version	Protocol version to use, posible values are 1 and 2. The default value is 2.
+* detectVersion Boollean, Defines if the library should try to detect protocl version based on incoming data. 
+		Default is false.
+* typeMap 	Associative array defining mappings between local and remote types (classes)
+* interceptors 	Array of interceptor objects that implement the IHessianInterceptor interface that will be executed 
+		in every request.
+* dateAdapter 	Object. Sets an alternative object to handle date/time serialization and deserialization. The 
+		objects must implement the IHessianDatetimeAdapter interface to deal with UNIX timestamps. Can be 
+		used to replace the standard implementation that returns and serializes native DateTime objects 
+		defined in PHP 5. Defaults to a native PHP DateTime handler.
+* timeZone 	String. String defining a timezone for datetime handling, which is required in newer versions of 
+		PHP. Default detected local time zone
+* saveRaw 	Boolean. Tells the transport library to keep a copy of received bytes in raw form. Usefull for 
+		debugging or logging.
+* headers 	Array of headers to be included in each request. Not implemented yet.
+
+-------------------------------------
+:: CLIENT OPTIONS
+
+* transport 	String/object. Defines the http communication library that clients use to send requests to remote 
+		services. Available options are 'CURL' and 'http'. See description below.
+* transportOptions	Mixed. Transport specific options to configure the request.
+
+-------------------------------------
+:: TRANSPORT OPTIONS
+
+* 'CURL' (Default) uses the CURL extension to send POST requests which can be faster and better suited for 
+  secure communication.
+* 'http' uses standard PHP http stream wrappers (stream_context_create and fopen) to send the request. 
+
+Optionally, you can pass an object that implements IHessianTransport using another library or method. Transport
+specific options to configure the request. In the current provided implementations, the options are:
+
+* CURL: array of options to be passed to the curl_setopt_array() function
+* http: array to be merged with the options used in the stream_context_create() function. 
+
+Please consult the PHP Manual for more information about specific options for these libraries.
+
+-------------------------------------
+:: SERVER OPTIONS
+
+* serviceName	String. Published name of service, the default is the class name of the serviced object
+* displayInfo 	Boolean. Default false. When set true, the service will display an information page with the name 
+		of the service and available methods upon a browsing to the service PHP page (GET request). When 
+		false, it will issue an error telling the Hessian requires POST.
+* ignoreOutput 	Boolean. Default false. When set to true, the service will ignore all text produced inside method 
+		calls, for example echo() and print() statements. NOTE: If any of the methods called in the service 
+		writes anything to the screen, it will result in a corrupted stream.
+
+-------------------------------------
+:: ADVANCED OPTIONS
+
+The following options exist for customizing internal behaviour of the library and it should be used carefully.
+
+* objectFactory		Object. Replaces the default object factory with an object that implements the 
+			IHessianObjectFactory interface. Can be used to get objects through IoC for example.
+* parseFilters  	Associative array in which keys are the names of basic Hessian types or classes/interfaces prefixed with @ 
+			and the keys are valid PHP callbacks to functions that process or transform the value just read from the service. 
+			Used for transforming or filtering mostly objects into a different format or even data type. 
+			Comes with a default filter 'date' to transform UNIX timestamps into native DateTime objects.
+* writeFilters 		Associative array in which keys are the names of basic PHP types or classes and the values are valid PHP callbacks 
+			to functions that will process or transform a value before is written into the output stream. Used to handle
+			serialization of specific types, for instance, the IteratorWriter? that serializes PHP STD iterators as lists or maps. 
+
+:: Note about multibyte character encodings (mbstring options)
+
+PHP includes some options that change the way PHP deals with strings and string related functions, and some of these options 
+can really mess up binary data if one is not careful. Concretely, mbstring.func_overload and mbstring.internal_encoding.
+
+The former option automatically replaces some of the str_* functions with the equivalent mb_str_* functions that work 
+with different character sets available in the mbstring extension. However, if you are not careful, this will also 
+affect the way you would normally work with binary data including files and streams, since functions like strlen()
+or substr() will work directly on characters instead of bytes, which is the normal behaviour in PHP.
+
+The mbstring.internal_encoding option, changes the way PHP represents strings internally, including variables that 
+can be used with binary services, including HessianPHP. Usually, people would set this option to UTF-8 to automatically 
+handle international text. Although the library tries to detect this and work accordingly, there may be cases when a 
+string sent or received with HessianPHP can not be decoded as expected. This can result in an exception with the message 
+"Read past the end of stream" or simply a "Code not recognized" fault.
+
+If you intend to use mbstring.func_overload and internal UTF-8 encoding, here are some tips 
+
+- Save *all* your PHP source files in the UTF-8 encoding, even if there are no international characters in them.
+  Better be safe than sorry.
+- Make sure that your html pages are correctly encoded, including content type in the <head> section:
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+- If you want to work with text that comes from a remote service and local text (same source file or external file),
+  make sure all of this files are also saved in UTF-8 encoding. Same goes for information that comes from a database.
+
+As of PHP 5, converting between character encodings tends to be a somewhat frustating experience so this could help 
+if you plan to change the mbstring options in your PHP installation.
+
+----------------------------------------------------------------------------
+
+:: INTERCEPTORS
+
+With Interceptors, you can perform custom operations around the execution of remote communication, in both clients and services.
+
+An interceptor is an object that implements the IHessianInterceptor interface and it has 2 main methods: beforeRequest and afterRequest . 
+These methods accept a single HessianCallingContext? as a parameter. This object contains different information pertaining the current 
+action such as the method being called, url, original configuration options and the writer and parser objects that handle the protocol
+at a low level.
+
+Check the source code for a complete description of the properties and methods in these two classes.
+
+:: CONFIGURING INTERCEPTORS
+
+Using interceptors is fairly simple.
+
+   1. Create a class that derives from IHessianInterceptor
+   2. Create an instance of the class
+   3. Add it to the interceptors array in the configuration options passed to HessianPHP clients or servers. 
+
+EXAMPLE
+
+This is a simple but useful interceptor that saves the binary streams involved in the communication and also the internal log of the parser activity.
+
+class Interceptor implements IHessianInterceptor{
+        
+        function beforeRequest(HessianCallingContext $ctx){
+                // the call property in the context is a HessianCall object
+                // representing the RPC operation. We will log only if we are a client
+                if($ctx->isClient)
+                        echo "Calling method: ".$ctx->call->method;
+
+                // this tells the transport layer to save the original bytes
+                $ctx->options->saveRaw = true; 
+        }
+        
+        function afterRequest(HessianCallingContext $ctx){
+                file_put_contents('outgoing.bin', $ctx->payload);
+                file_put_contents('parserLog.txt', implode("\r\n", $ctx->parser->log));
+                file_put_contents('writerLog.txt', implode("\r\n", $ctx->writer->log));
+                file_put_contents('incoming.bin', $ctx->transport->rawData);
+        }
+}
+
+// configuration
+$interceptor = new Interceptor();
+
+$options = new HessianOptions();
+$options->interceptors = array($interceptor); // add interceptor 
+
+$proxy = new HessianClient($url, $options);
+// or
+$server = new HessianService($testService, $options);
+
+If you have diferent interceptors, they will execute in the order they were added to the array. 
+
+-------------------------------------------------------------------------------
+
+:: MAPPING TYPES
+
+Most of the objects that are sent and received using the Hessian protocol contain a type, namely a class name attached to them. 
+In strongly typed implementations, this type is used to correctly create instances of this objects, but in dynamic languages like 
+PHP this is not mandatory.
+
+However, there are cases when you need to map some remote type to a local type, for example an object that implements ActiveRecord 
+that will get filled remotedly and then will be saved in a database.
+
+To have HessianPHP create objects of the right class, you will need to create maps that will tell the library what class to create.
+The typeMap property
+
+In the configuration of both client and servers you can define mappings of concrete remote types to local types using names or wildcards.
+The typeMap field in the configuration object is an associative array in which keys are the local type and values are remote types.
+You can use the * wildcard in either the local or remote types for easier mapping. For example 'array' => '*.IList*' will map every 
+incoming object of type IList to a PHP array
+
+Example:
+
+$options = new HessianOptions();
+$options->typeMap['Item'] = 'com.test.model.Item'; // specific remote type mapped to local 'Item' class
+$options->typeMap['Person'] = '*.Person'; // will match every class name that ends in 'Person' to the local type
+
+NOTES
+
+    * If you want to map remote types to local arrays, just write 'array' as the key.
+    * Using the default ObjectFactory component that comes with this library, when a type cannot be resolved, 
+      you will get a stdClass object with fields. 
