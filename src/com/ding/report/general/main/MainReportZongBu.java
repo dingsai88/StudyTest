@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 内存溢出
+ * 内存溢出d
 -server -Xms800m -Xmx800m  -XX:PermSize=64M -XX:MaxNewSize=256m -XX:MaxPermSize=128m -Djava.awt.headless=true
  发送文件到总部。导出sql 到excel。excel;
  * excel用2003的老格式
