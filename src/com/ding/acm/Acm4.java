@@ -28,13 +28,14 @@ public class Acm4 {
 	 */
 	public static void main(String[] args) throws Exception {
 		BufferedReader strin = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("请输入测试次数：");
+		//System.out.print("请输入测试次数：");
 		String count = strin.readLine();
 		int c = Integer.parseInt(count);
 		while (c-- > 0) {
-			System.out.print("请输入字符串：");
+		//	System.out.print("请输入字符串：");
 			String str = strin.readLine();
-			System.out.println("您输入的是:" + str + ";排序后:" + sort(str));
+			//System.out.println("您输入的是:" + str + ";排序后:" + sort(str));
+			System.out.println( sort(str));
 		} 
 	} 
 	/**

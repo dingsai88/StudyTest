@@ -34,15 +34,22 @@ public class ACM2 {
 	 * @param args
 	 */
 	public static void main(String[] args) throws Exception {
- 		BufferedReader strin = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("请输入测试次数：");
-		String count = strin.readLine();
-		int c = Integer.parseInt(count);
-		while (c-- > 0) {
-			System.out.print("请输入字符串：");
-			String str = strin.readLine();
-			System.out.println("您输入的是:" + str + ";是否匹配:" + check(str));
+		
+ 		try {
+			BufferedReader strin = new BufferedReader(new InputStreamReader(System.in));
+			//System.out.print("请输入测试次数：");
+			String count = strin.readLine();
+			int c = Integer.parseInt(count);
+			while (c-- > 0) {
+				//System.out.print("请输入字符串：");
+				String str = strin.readLine();
+				check(str);
+				//System.out.println("您输入的是:" + str + ";是否匹配:" + );
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
+		
 
 	}
 /**
@@ -57,9 +64,7 @@ public class ACM2 {
 		int length = str.length();
 		Stack<Character> stack = new Stack<Character>();
 
-		if (length % 2 == 1) {
-			return false;
-		} else {
+	 
 			for (int i = 0; i < length; i++) {
 				if (stack.isEmpty()) {
 					stack.push(str.charAt(i));
@@ -72,17 +77,17 @@ public class ACM2 {
 				}
 
 			}
-		}
+	 
 
 		if (stack.isEmpty()) {
 			// 如果栈是空的，说明括号匹配
 			bo = true;
-			System.out.println("Yes");
+			 System.out.println("Yes");
 
 		} else {
 			bo = false;
 			// 说明栈不为空，括号不匹配
-			System.out.println("No");
+		 System.out.println("No");
 		}
 
 		return bo;
