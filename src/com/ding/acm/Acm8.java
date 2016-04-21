@@ -1,5 +1,9 @@
 package com.ding.acm;
 
+import java.util.HashSet;
+
+import java.util.Set;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
@@ -67,6 +71,9 @@ public class Acm8 {
 		Scanner input = new Scanner(System.in);
 		System.out.print("ÇëÊäÈë²âÊÔ´ÎÊı£º");
 		int count = input.nextInt();
+		
+		Set set=new HashSet();
+		set.add("");
 
 		for (int testCount = 0; testCount < count; testCount++) {
 

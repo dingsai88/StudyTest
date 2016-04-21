@@ -25,8 +25,7 @@ public class Acm11 {
 
 		Scanner input = new Scanner(System.in);
 		System.out.print("请输入测试次数：");
-		int count = input.nextInt();
-
+		int count = input.nextInt(); 
 		for (int testCount = 0; testCount < count; testCount++) {
 
 			System.out.print("请输入几组数据：");

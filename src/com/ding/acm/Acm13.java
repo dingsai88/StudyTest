@@ -1,3 +1,4 @@
+package com.ding.acm;
 
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ import java.util.Scanner;
  * @email 576699909@qq.com
  * @time 2016-4-21 ионГ11:28:28
  */
-public class Main {
+public class Acm13 {
 
 	/**
 	 * @author daniel
