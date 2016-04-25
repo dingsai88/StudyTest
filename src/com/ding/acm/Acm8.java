@@ -161,6 +161,7 @@ class Rectangle implements Comparable<Rectangle> {
 
 	@Override
 	public String toString() {
+		//	return  id + " " + length + " " + width ;
 		return "Rectangle [id=" + id + ", length=" + length + ", width=" + width + "]";
 	}
 
