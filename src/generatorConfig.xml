@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" 
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<!-- 此文件只是mybatis 的数据库自动生成映射文件，实体类，接口等方法的，发布时，不用提交此文件，也可删除 -->
+
+<generatorConfiguration>
+    <!-- 引用的jdbc的类路径，这里将jdbc jar和generator的jar包放在一起了 -->
+    <classPathEntry location="C:\DingSai\Work\lib_source\mysql-connector-java-5.0.0-beta-bin.jar"/>
+    <context id="context1" targetRuntime="MyBatis3Simple">
+        
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="false"/>
+            <property name="suppressDate" value="true" /> <!-- 是否生成注释代时间戳-->  
+          </commentGenerator>
+        
+        <!-- 指定的jdbc的连接信息 -->
+        <jdbcConnection 
+            driverClass="com.mysql.jdbc.Driver" 
+            connectionURL="jdbc:mysql://localhost:3306/mysql" 
+            userId="root" 
+            password="icetime" />
+        
+        <!-- 类型转换 -->  
+        <javaTypeResolver>  
+            <!-- 是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.） -->  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>  
+        
+        <!-- 生成实体类地址 Model -->       
+        <javaModelGenerator targetPackage="com.dayhr.web.module.hr.sm.salary.model" targetProject="dayhr_app\src" >
+            <!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->  
+            <property name="enableSubPackages" value="false"/>  
+            <!-- 是否针对string类型的字段在set的时候进行trim调用 -->  
+            <property name="trimStrings" value="true"/>  
+        </javaModelGenerator>
+        
+        <!-- 生成map.xml文件 XML -->     
+        <sqlMapGenerator targetPackage="com.dayhr.web.module.hr.sm.salary.mapper" targetProject="dayhr_app\src" >
+            <!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->  
+            <property name="enableSubPackages" value="false" /> 
+        </sqlMapGenerator>
+        
+        <!-- 生成map.xml对应client，也就是接口DAO -->  
+        <javaClientGenerator targetPackage="com.dayhr.web.module.hr.sm.salary.mapper" targetProject="dayhr_app\src" type="XMLMAPPER" >
+            <!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->  
+            <property name="enableSubPackages" value="false" /> 
+        </javaClientGenerator>
+        
+        <!-- 
+            schema：数据库名 
+            tableName：对应的数据库表 
+            domainObjectName：要生成的实体类 
+            enable*ByExample： 是否生成 example类   
+        --> 
+        <table schema="dayhr_db" tableName="t_hr_sm_salschemabase" domainObjectName="Salschemabase" 
+            enableCountByExample="false"  enableDeleteByExample="false" 
+            enableSelectByExample="false"  enableUpdateByExample="false">
+            
+            <!-- 忽略列，不生成bean 字段 -->  
+            <ignoreColumn column="FRED" />  
+            <!-- 指定列的java数据类型 -->  
+            <columnOverride column="LONG_VARCHAR_FIELD" jdbcType="VARCHAR" /> 
+        </table>
+        
+    </context>
+</generatorConfiguration>
