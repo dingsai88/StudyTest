@@ -1,8 +1,8 @@
 package com.ding.study.thread.ReadWriteLock;
 
-import java.util.Set;
+import java.util.Iterator;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
+import java.util.Set;
  
 import java.util.Collections;
 
