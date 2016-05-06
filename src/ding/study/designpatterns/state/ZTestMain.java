@@ -1,5 +1,11 @@
 package ding.study.designpatterns.state;
 
+import com.ding.webservice.Wsdl;
+
+import java.util.HashMap;
+import java.util.Map;
+import org.springframework.context.support.GenericXmlApplicationContext;
+
 public class ZTestMain {
 
 	/**
@@ -40,6 +46,25 @@ public class ZTestMain {
 		w.writeProgram();
 		w.setHour(24);
 		w.writeProgram();
+
+		GenericXmlApplicationContext context = new GenericXmlApplicationContext();
+		context.setValidating(false);
+		context.load("classpath*:applicationContext-ding*.xml");
+		context.refresh();
+
+		// String paths[] = {"applicationContext.xml"};
+		// 这个xml文件是Spring配置beans的文件，顺带一提，路径 在整个应用的根目录
+		// ApplicationContext ctx = new ClassPathXmlApplicationContext(paths);
+		// MyBean myBean = (MyBean)ctx.getBean("myBeanImpl");
+		// 获得实现类的名字需要增加注解
+		String[] names = context.getBeanNamesForType(Wsdl.class);
+
+		Map<String, Object> beans = new HashMap<String, Object>();
+
+		for (String name : names) {
+			System.out.println("name:" + name);
+			// beans.put(name, context.getBean(name));
+		}
 
 	}
 

@@ -7,6 +7,9 @@
 
 package com.ding.webservice;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class WsdlLocator extends org.apache.axis.client.Service implements com.ding.webservice.Wsdl {
 
     public WsdlLocator() {
