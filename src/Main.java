@@ -24,10 +24,8 @@ public class Main {
 			for (int j = 0; j < 100; j++) {
 				for (int k = 0; k < 100; k++) {
 					for (int l = 0; l < 100; l++) {
-						visited[j][k][l] = false;
-
-					}
-
+						visited[j][k][l] = false; 
+					} 
 				}
 			}
 
@@ -78,6 +76,8 @@ public class Main {
 		
 		
 		while (!nodeQueue.isEmpty()) {
+			 System.out.println("---------while-----------\n");
+
 			currentNode = nodeQueue.poll();
 			if (isAchieveTarget(currentNode)) {
 				return currentNode.stepNum;
