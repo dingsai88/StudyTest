@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 import java.util.Arrays;
 
 import java.util.LinkedList;
@@ -11,27 +13,13 @@ public class Main {
 	public static int[] cupCapacity = new int[3];
 	public static int[] targetState = new int[3];
 
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		int testnum = input.nextInt();
-		for (int i = 0; i < testnum; i++) {
-			for (int j = 0; j < 3; j++) {
-				cupCapacity[j] = input.nextInt();
-			}
-			for (int j = 0; j < 3; j++) {
-				targetState[j] = input.nextInt();
-			}
-			for (int j = 0; j < 100; j++) {
-				for (int k = 0; k < 100; k++) {
-					for (int l = 0; l < 100; l++) {
-						visited[j][k][l] = false; 
-					} 
-				}
-			}
-
-			System.out.println(BFS());
-		}
-		input.close();
+	public static void main(String[] args) { 
+		
+		BigInteger bi=new BigInteger("");
+				
+		
+		
+		
 	}
 
 	public static class CupNode {
