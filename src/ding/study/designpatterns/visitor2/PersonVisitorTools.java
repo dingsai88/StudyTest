@@ -32,11 +32,11 @@ public class PersonVisitorTools {
 	  * 排队报数  访问状态下 人的反应
 	  * @param visitor
 	  */
-	 public void show(Visitor visitor){
-	  for(Person e :elements){
-	   e.showTime(visitor);
-	  }
-	 } 
+	public void show(Visitor visitor) {
+		for (Person e : elements) {
+			e.showTime(visitor);
+		}
+	} 
 	 
 	 
 }
