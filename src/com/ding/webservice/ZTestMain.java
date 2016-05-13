@@ -1,5 +1,7 @@
 package com.ding.webservice;
 /**
+ * jar包下载地址
+ * http://download.csdn.net/detail/dingsai88/9498337
  * 
  * apache的axis1.4框架。是目前最稳定，使用最广泛的版本。用于webservice开发
 
