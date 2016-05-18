@@ -1,7 +1,7 @@
 
 package ding.study.designpatterns.visitor;
 
-public class Woman extends Person {
+public class Woman extends IPersonShow {
  private String sexMessage="≈Æ»À";
 
  @Override

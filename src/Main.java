@@ -1,57 +1,84 @@
-import java.util.*;
-import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.Arrays;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
 
 /**
- * ÁßØÄµÄ¹ú¶È Ê±¼äÏŞÖÆ£º1000 ms | ÄÚ´æÏŞÖÆ£º65535 KB ÄÑ¶È£º3 ÃèÊö
- * ÔÚÒ»¸öÁßØÄµÄ¹ú¶ÈÀïÓĞN¸ö³ÇÊĞ£¬ÕâN¸ö³ÇÊĞ¼äÖ»ÓĞN-1ÌõÂ·°ÑÕâ¸öN¸ö³ÇÊĞÁ¬½ÓÆğÀ´
- * ¡£ÏÖÔÚ£¬TomÔÚµÚSºÅ³ÇÊĞ£¬ËûÓĞÕÅ¸Ã¹úµØÍ¼£¬ËûÏëÖªµÀÈç¹û×Ô¼ºÒªÈ¥²Î¹ÛµÚTºÅ³ÇÊĞ£¬±ØĞë¾­¹ıµÄÇ°Ò»¸ö³ÇÊĞÊÇ¼¸ºÅ³ÇÊĞ£¨¼ÙÉèÄã²»×ßÖØ¸´µÄÂ·£©¡£ ÊäÈë
- * µÚÒ»ĞĞÊäÈëÒ»¸öÕûÊıM±íÊ¾²âÊÔÊı¾İ¹²ÓĞM(1<=M<=5)×é
- * Ã¿×é²âÊÔÊı¾İµÄµÚÒ»ĞĞÊäÈëÒ»¸öÕıÕûÊıN(1<=N<=100000)ºÍÒ»¸öÕıÕûÊıS(1<=S<=100000)£¬N±íÊ¾³ÇÊĞµÄ×Ü¸öÊı£¬S±íÊ¾²Î¹ÛÕßËùÔÚ³ÇÊĞµÄ±àºÅ
- * ËæºóµÄN-1ĞĞ£¬Ã¿ĞĞÓĞÁ½¸öÕıÕûÊıa,b(1<=a,b<=N)£¬±íÊ¾µÚaºÅ³ÇÊĞºÍµÚbºÅ³ÇÊĞÖ®¼äÓĞÒ»ÌõÂ·Á¬Í¨¡£ Êä³ö
- * Ã¿×é²âÊÔÊı¾İÊäN¸öÕıÕûÊı£¬ÆäÖĞ£¬µÚi¸öÊı±íÊ¾´ÓS×ßµ½iºÅ³ÇÊĞ£¬±ØĞëÒª¾­¹ıµÄÉÏÒ»¸ö³ÇÊĞµÄ±àºÅ¡££¨ÆäÖĞi=SÊ±£¬ÇëÊä³ö-1£© ÑùÀıÊäÈë 1 10 1 1 9
- * 1 8 8 10 10 3 8 6 1 2 10 4 9 5 3 7 ÑùÀıÊä³ö -1 1 10 10 9 8 3 1 1 8
  * 
  * @author daniel
  * @email 576699909@qq.com
- * @time 2016-5-12 ÏÂÎç2:53:46
+ * @time 2016-5-17 ä¸Šåˆ10:20:59
  */
 public class Main {
-	public static void main(String[] args) {
-		// »ñµÃÊäÈëĞÅÏ¢
-		Scanner in = new Scanner(System.in);
-		int M = in.nextInt();
-		int[] N = new int[M];
-		int[] S = new int[M];
-		Queue<Integer> result = new ConcurrentLinkedQueue<Integer>();
 
-		for (int i = 0; i < M; i++) {
-			N[i] = in.nextInt();
-			S[i] = in.nextInt();
-			int[] a = new int[N[i] - 1];
-			int[] b = new int[N[i] - 1];
-			for (int j = 0; j < N[i] - 1; j++) {
-				a[j] = in.nextInt();
-				b[j] = in.nextInt();
-			}
-			// ÕÒ³öµÚi¸öÊı×Ö£¨¼´b[l]=i£©Ê±ºòa[l]µÄÖµ¸³¸øresult
-			for (int k = 1; k <= N[i]; k++) {
-				if (S[i] == k)
-					result.add(-1);
-				for (int l = 0; l < N[i] - 1; l++) {
-					if (b[l] == k) {
-						result.add(a[l]);
-						break;
-					}
+	public static void main(String[] args) {
+
+		int[] all = new int[] { 12, 45, 1, 342, 2 };
+
+		System.out.println("old:" + Arrays.toString(all));
+
+		// System.out.println("new:" + Arrays.toString(insertSort(all)));
+		System.out.println("new:" + Arrays.toString(bubbleSort(all)));
+
+	}
+
+	/**
+	 * å†’æ³¡ â€¢å†’æ³¡æ’åºå°†å·²æ’åºéƒ¨åˆ†å®šä¹‰åœ¨å³ç«¯ï¼Œåœ¨éå†æœªæ’åºéƒ¨åˆ†çš„è¿‡ç¨‹æ‰§è¡Œäº¤æ¢ï¼Œå°†æœ€å¤§å…ƒç´ äº¤æ¢åˆ°æœ€å³ç«¯ã€‚
+	 * 
+	 * @author daniel
+	 * @time 2016-5-17 ä¸‹åˆ3:01:04
+	 * @param arr
+	 * @return
+	 */
+	private static int[] bubbleSort(int[] arr) {
+
+		int temp = 0;
+		for (int i = 0; i < arr.length - 1; i++) {
+			for (int j = 0; j < arr.length - 1 - i; j++) {
+				if (arr[j] > arr[j + 1]) {
+					temp = arr[j + 1];
+					arr[j + 1] = arr[j];
+					arr[j] = temp;
+					System.out.println("ing:" + Arrays.toString(arr));
 				}
 			}
 		}
-		// Êä³ö
-		for (int i = 0; i < M; i++) {
-			for (int j = 0; j < N[i]; j++) {
-				int num = result.poll();
-				System.out.print(num + " ");
-			}
 
-		}
+		return arr;
+
 	}
+
+	/**
+	 * æ’å…¥ â€¢æ’å…¥æ’åºå°†å·²æ’åºéƒ¨åˆ†å®šä¹‰åœ¨å·¦ç«¯ï¼Œå°†æœªæ’åºéƒ¨åˆ†å…ƒçš„ç¬¬ä¸€ä¸ªå…ƒç´ æ’å…¥åˆ°å·²æ’åºéƒ¨åˆ†åˆé€‚çš„ä½ç½®ã€‚
+	 * 
+	 * @author daniel
+	 * @time 2016-5-17 ä¸‹åˆ3:01:09
+	 * @param arr
+	 * @return
+	 */
+	private static int[] insertSort(int[] arr) {
+
+		for (int i = 1; i < arr.length; i++) {
+			for (int j = i; j > 0; j--) {
+				if (arr[j - 1] > arr[j]) {
+					int temp = arr[j];
+					arr[j] = arr[j - 1];
+					arr[j - 1] = temp;
+					System.out.println("ing:" + Arrays.toString(arr));
+
+				} else {
+					// æ¥ä¸‹æ¥æ˜¯æ— ç”¨åŠŸ
+					break;
+				}
+			}
+		}
+		return arr;
+	}
+
+	private static int[] insertSort2(int[] arr) {
+
+		return arr;
+	}
+
 }
