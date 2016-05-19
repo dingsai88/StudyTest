@@ -1,4 +1,4 @@
-package ding.study.designpatterns.visitor2;
+package ding.study.designpatterns.visitor;
 
 public class ZMainTest {
 

@@ -1,4 +1,4 @@
-package ding.study.designpatterns.visitor2;
+package ding.study.designpatterns.visitor;
  
 import java.util.ArrayList;
 import java.util.List;

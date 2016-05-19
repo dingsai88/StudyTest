@@ -1,34 +1,11 @@
 package ding.study.designpatterns.visitor;
 /**
- * 访问者抽象类
+ * 观察者
  * @author daniel
- *
+ * @email 576699909@qq.com
+ * @time 2016-5-11 下午2:28:38
  */
-abstract class Visitor {
-/**
- * 访问男人的反应 抽象
- * @param concreteElementA
- */
- public abstract void getVisitor(Man concreteElementA); 
- 
- /**
-  *访问女人的反应 抽象
-  */
- 
- public abstract void getVisitor(Woman concreteElementB);
-}
+public interface Visitor {
 
-/**
- * 人类抽象
- * @author daniel
- *
- */
-abstract class Person{ 
- /**
-  * 接受访问
-  * @param visitor
-  */
- public abstract void accept(Visitor visitor);
+	public void getVersion(Person person);
 }
-
- 

@@ -1,4 +1,4 @@
-package ding.study.designpatterns.visitor2;
+package ding.study.designpatterns.visitor;
 /**
  * Å®ÈËÀà
  * @author daniel

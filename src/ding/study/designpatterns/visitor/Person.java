@@ -1,4 +1,4 @@
-package ding.study.designpatterns.visitor2;
+package ding.study.designpatterns.visitor;
 /**
  * 定义人对象的接口
  * @author daniel
