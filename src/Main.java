@@ -1,84 +1,141 @@
-import java.util.Arrays;
+
+import org.apache.zookeeper.data.Stat;
+
+import org.apache.zookeeper.CreateMode;
+
+import org.apache.zookeeper.ZooDefs.Ids;
+
+import org.apache.zookeeper.WatchedEvent;
+
+import org.apache.zookeeper.Watcher;
+
+import org.apache.zookeeper.ZooKeeper;
+
+import org.I0Itec.zkclient.ZkClient;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
 /**
- * 
+ 
+
+		
+
+	    String connectionString="10.199.88.169:2181";
+	      int connectionTimeout=50000;
+	      
+	      ZkClient zkClient=new ZkClient(connectionString, connectionTimeout);
+	      
+	      System.out.println(zkClient.getChildren("/taobao"));
+	      
+	      String Path="/thirdName";
+	      
+	   // 创建一个与服务器的连接
+	      ZooKeeper zk = new ZooKeeper(connectionString, 
+	    		  connectionTimeout, new Watcher() { 
+	                 // 监控所有被触发的事件
+	                 public void process(WatchedEvent event) { 
+	                     System.out.println("已经触发了" + event.getType() + "事件！"); 
+	                 } 
+	             }); 
+	      // 创建一个目录节点
+	      zk.create(Path, "testRootData".getBytes(), Ids.OPEN_ACL_UNSAFE,
+	        CreateMode.PERSISTENT); 
+	      // 创建一个子目录节点
+	      zk.create(Path+"/testChildPathOne", "testChildDataOne".getBytes(),
+	        Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
+	      System.out.println(new String(zk.getData(Path+"",false,null))); 
+	      // 取出子目录节点列表
+	      System.out.println(zk.getChildren(Path+"",true)); 
+	      // 修改子目录节点数据
+	      zk.setData(Path+"/testChildPathOne","modifyChildDataOne".getBytes(),-1); 
+	      System.out.println("目录节点状态：["+zk.exists(Path+"",true)+"]"); 
+	      // 创建另外一个子目录节点
+	      zk.create(Path+"/testChildPathTwo", "testChildDataTwo".getBytes(), 
+	        Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
+	      System.out.println(new String(zk.getData(Path+"/testChildPathTwo",true,null))); 
+	      // 删除子目录节点
+	       zk.delete(Path+"/testChildPathTwo",-1); 
+	      zk.delete(Path+"/testChildPathOne",-1); 
+	      // 删除父目录节点
+	      zk.delete(Path+"",-1); 
+	      // 关闭连接
+	      zk.close();
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+ 	
  * @author daniel
  * @email 576699909@qq.com
  * @time 2016-5-17 上午10:20:59
  */
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 
-		int[] all = new int[] { 12, 45, 1, 342, 2 };
+	      
+	      String Path="/thirdName/ALLBAIDULBS";
+	    String []aa=  "10.199.88.169;10.1.120.124".split(";");
+	    
+	      System.out.println(aa[0]+";"+aa[1]);
+	    String connectionString="10.199.88.169:2181";
+	      int connectionTimeout=50000;
+	      
+	 /*     ZkClient zkClient= new ZkClient(connectionString, connectionTimeout);
+	      
+	  //    System.out.println(zkClient.getChildren("/TAOBAO"));
+	      System.out.println(zkClient.readData(Path+"/TAOBAO"));
+	      
+	      if(1==1){
+		      return;
+ 
+	      }*/
+	      
+	      
+	   // 创建一个与服务器的连接
+	      ZooKeeper zk = new ZooKeeper(connectionString, 
+	    		  connectionTimeout, new Watcher() { 
+	                 // 监控所有被触发的事件
+	                 public void process(WatchedEvent event) { 
+	                     System.out.println("已经触发了" + event.getType() + "事件！"); 
+	                 } 
+	             }); 
+	      // 创建一个目录节点
+	   //   zk.create(Path, "testRootData".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT); 
+	      // 创建一个子目录节点
+	       zk.create(Path, "testTAOBAO".getBytes(), Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
+	     // System.out.println(new String(zk.getData(Path+"",false,null))); 
+	      // 取出子目录节点列表
+	     // System.out.println(zk.getChildren(Path+"",true)); 
+	      // 修改子目录节点数据
+	      zk.setData(Path,"10.199.88.169".getBytes(),-1); 
+	      System.out.println("目录节点状态：["+zk.exists(Path,true)+"]"); 
+			Stat stat=zk.exists(Path,true);
+ 	      
+ 	      // 创建另外一个子目录节点
+	    //  zk.create(Path+"/testChildPathTwo", "testChildDataTwo".getBytes(),  Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
+	      System.out.println(Path+"值:"+new String(zk.getData(Path,true,null))); 
+	      // 删除子目录节点
+	   //    zk.delete(Path+"/testChildPathTwo",-1); 
+	   //   zk.delete(Path+"/testChildPathOne",-1); 
+	      // 删除父目录节点
+	    //  zk.delete(Path+"",-1); 
+	      // 关闭连接
+	      zk.close();
+	      
+	      
+	      
+	      
+	      
+	      
+	      
+ 	}
+	
+	
 
-		System.out.println("old:" + Arrays.toString(all));
-
-		// System.out.println("new:" + Arrays.toString(insertSort(all)));
-		System.out.println("new:" + Arrays.toString(bubbleSort(all)));
-
-	}
-
-	/**
-	 * 冒泡 •冒泡排序将已排序部分定义在右端，在遍历未排序部分的过程执行交换，将最大元素交换到最右端。
-	 * 
-	 * @author daniel
-	 * @time 2016-5-17 下午3:01:04
-	 * @param arr
-	 * @return
-	 */
-	private static int[] bubbleSort(int[] arr) {
-
-		int temp = 0;
-		for (int i = 0; i < arr.length - 1; i++) {
-			for (int j = 0; j < arr.length - 1 - i; j++) {
-				if (arr[j] > arr[j + 1]) {
-					temp = arr[j + 1];
-					arr[j + 1] = arr[j];
-					arr[j] = temp;
-					System.out.println("ing:" + Arrays.toString(arr));
-				}
-			}
-		}
-
-		return arr;
-
-	}
-
-	/**
-	 * 插入 •插入排序将已排序部分定义在左端，将未排序部分元的第一个元素插入到已排序部分合适的位置。
-	 * 
-	 * @author daniel
-	 * @time 2016-5-17 下午3:01:09
-	 * @param arr
-	 * @return
-	 */
-	private static int[] insertSort(int[] arr) {
-
-		for (int i = 1; i < arr.length; i++) {
-			for (int j = i; j > 0; j--) {
-				if (arr[j - 1] > arr[j]) {
-					int temp = arr[j];
-					arr[j] = arr[j - 1];
-					arr[j - 1] = temp;
-					System.out.println("ing:" + Arrays.toString(arr));
-
-				} else {
-					// 接下来是无用功
-					break;
-				}
-			}
-		}
-		return arr;
-	}
-
-	private static int[] insertSort2(int[] arr) {
-
-		return arr;
-	}
 
 }
