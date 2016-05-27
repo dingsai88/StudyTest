@@ -108,6 +108,11 @@ public class QuickSort {
 		sort(c, 0, c.length - 1);
 		System.out.println("½áÊø:" + Arrays.toString(c));
 
+		System.out.println(16>>1);
+		System.out.println(16>>2);
+		System.out.println(16>>3);
+		System.out.println(16>>4);
+		System.out.println(4<<1);
 	}
 
 }
