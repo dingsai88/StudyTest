@@ -3,7 +3,7 @@ package ding.study.designpatterns.flyweight;
  * 享元模式（Flyweight）:运用共享技术有效地支持大量细粒度的对象。
  * 
  * 避免大量拥有相同内容的小类的开销(如耗费内存),使大家共享一个类(元类).
-
+同类型只有一个对象
 
 输出结果
  * @author daniel
