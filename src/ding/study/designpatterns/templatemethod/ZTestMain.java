@@ -10,7 +10,6 @@ package ding.study.designpatterns.templatemethod;
  * @time 2016-6-1 ионГ10:18:55
  */
 public class ZTestMain {
-
 	/**
 	 * @author daniel
 	 * @time 2016-6-1 ионГ10:18:00

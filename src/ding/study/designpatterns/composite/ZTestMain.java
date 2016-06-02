@@ -8,9 +8,7 @@ public class ZTestMain {
 	 * @param args
 	 */
 	public static void main(String[] args) {
- 
-		  // TODO Auto-generated method stub
-			 CompanyImpl zong=new CompanyImpl("总公司");
+ 			 CompanyImpl zong=new CompanyImpl("总公司");
 		  zong.add(new HRDepartment("总公司HR"));
 		  zong.add(new FinanceDepartment("总公司财务"));
 		  
