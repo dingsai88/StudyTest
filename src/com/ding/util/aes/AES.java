@@ -1,6 +1,5 @@
-package com.ding.test;
+package com.ding.util.aes;
 
-import java.io.UnsupportedEncodingException;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
@@ -17,11 +16,10 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * AES鍔犺В瀵嗗伐鍏风被
  * 
- * @author chengjianzhu
- * @email weakinenglish@163.com
- * @time 2014-7-7 涓嬪崍3:33:06
+ * @author daniel
+ * @email 576699909@qq.com
+ * @time 2016-6-11 下午7:32:57
  */
 public class AES {
 	public static final String KEY_GENERATION_ALG = "PBKDF2WithHmacSHA1";
@@ -30,30 +28,8 @@ public class AES {
 	public static byte[] salt = { 1, 3, 9, 6, 9, 4, 4, 4, 0, 2, 0xA, 0xB, 0xC, 0xD, 0xE, 0xF };
 	public static final String CIPHERMODEPADDING = "AES/CBC/PKCS5Padding";
 	public static SecretKeyFactory keyfactory = null;
-	// public static byte[] iv = { 0xA, 1, 0xB, 5, 4, 0xF, 7, 9, 0x17, 3, 1, 6,
-	// 8, 0xC, 0xD, 91 };
 	public static IvParameterSpec ivSpec = new IvParameterSpec(new byte[] { 0xA, 1, 0xB, 5, 4, 0xF, 7, 9, 0x17, 3, 1, 6, 8, 0xC, 0xD, 91 });
 
-	public static void main(String[] args) {
-		String s = "ewpiaqtgdhirqmufwpcbbgrildmtugwa" + System.currentTimeMillis();
-		//s="ewpiaqtgdhirqmufwpcbbgrildmtugwa1449724032524";
-		String key = "WEBWANDAHOTEL==12390bnxx";
-		String t;
-		try {
-			t = AES.encrypt(s.getBytes("UTF-8"), key);
-			String de = AES.decrypt(t, key);
-			System.out.println("加密后:"+t);
-			System.out.println("原:"+de);
-			
-			String str="H388bYYT0dEY3nzlGUwr+N5Chd2bQcGb/NC1ZIsUf5CCDcajY8Z3xy5hN0bJO8Yt";
-			String jiemi = AES.decrypt(str, "WEBWANDAHOTEL12390bnxx");
-			System.out.println("解密后:"+jiemi);
-		 
-		} catch (Exception e) {
- 			e.printStackTrace();
-		}
-
-	}
 
 	public synchronized static void createSecretKeyFactory() {
 		if (keyfactory == null) {
@@ -100,19 +76,6 @@ public class AES {
 		return decrypted;
 	}
 
-	/**
-	 * 鍔犲瘑
-	 * 
-	 * @param cmp
-	 *            濉厖鏂瑰紡
-	 * @param sk
-	 *            瀵嗛挜
-	 * @param IV
-	 *            鍚戦噺
-	 * @param msg
-	 *            闇�鍔犲瘑鐨勫唴瀹�
-	 * @return 杩斿洖鍔犲瘑缁撴灉
-	 */
 	public static byte[] encrypt(String cmp, SecretKey sk, IvParameterSpec IV, byte[] msg) {
 		try {
 			Cipher c = Cipher.getInstance(cmp);
@@ -134,19 +97,6 @@ public class AES {
 		return null;
 	}
 
-	/**
-	 * 瑙ｅ瘑
-	 * 
-	 * @param cmp
-	 *            濉厖鍑芥暟
-	 * @param sk
-	 *            瀵嗛挜
-	 * @param IV
-	 *            鍚戦噺
-	 * @param ciphertext
-	 *            闇�瑙ｅ瘑鍐呭
-	 * @return 杩斿洖瑙ｅ瘑缁撴灉
-	 */
 	public static byte[] decrypt(String cmp, SecretKey sk, IvParameterSpec IV, byte[] ciphertext) {
 		try {
 			Cipher c = Cipher.getInstance(cmp);

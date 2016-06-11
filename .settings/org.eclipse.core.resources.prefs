@@ -1,8 +1,8 @@
-#Tue May 24 18:30:26 CST 2016
+#Sat Jun 11 19:54:40 CST 2016
 eclipse.preferences.version=1
 encoding//src/Main.java=UTF-8
 encoding//src/com/ding/report/general/main/MainReportZongBu.java=UTF-8
-encoding//src/com/ding/test/AES.java=UTF-8
-encoding//src/com/ding/test/Base64Encoder.java=UTF-8
+encoding//src/com/ding/util/aes/AES.java=UTF-8
+encoding//src/com/ding/util/aes/Base64Encoder.java=UTF-8
 encoding//src/ding/study/designpatterns/decorator/Zmain.java=UTF-8
 encoding/<project>=GBK
