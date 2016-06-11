@@ -39,5 +39,7 @@
 	<classpathentry kind="lib" path="lib/mina-core-2.0.7.jar"/>
 	<classpathentry kind="lib" path="lib/jcl-over-slf4j-1.6.6.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.10-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
