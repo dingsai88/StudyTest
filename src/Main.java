@@ -95,15 +95,15 @@ public class Main {
  
 	      }*/
 	      
-	      
+
 	   // 创建一个与服务器的连接
 	      ZooKeeper zk = new ZooKeeper(connectionString, 
 	    		  connectionTimeout, new Watcher() { 
 	                 // 监控所有被触发的事件
-	                 public void process(WatchedEvent event) { 
-	                     System.out.println("已经触发了" + event.getType() + "事件！"); 
-	                 } 
-	             }); 
+	                 public void process(WatchedEvent event) {
+	                     System.out.println("已经触发了" + event.getType() + "事件！");
+	                 }
+	             });
 	      // 创建一个目录节点
 	   //   zk.create(Path, "testRootData".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT); 
 	      // 创建一个子目录节点
@@ -127,7 +127,7 @@ public class Main {
 	      // 关闭连接
 	      zk.close();
 	      
-	      
+
 	      
 	      
 	      

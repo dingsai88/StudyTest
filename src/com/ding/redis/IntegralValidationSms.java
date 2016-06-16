@@ -6,14 +6,15 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Repository;
 
+/*
 import com.wandafilm.api.util.JedisConstant;
 import com.wandafilm.api.util.JedisTools;
 import com.wandafilm.api.util.JedisToolsSelDB;
 import com.wandafilm.api.util.redis.RedisSetKeyConstant;
 
+
 @Repository("integralValidationSms")
 public class IntegralValidationSms extends JedisTools {
-	protected static final Log log = LogFactory.getLog(ShareWrite.class);
 
 	@Override
 	public int getDBIndex() {
@@ -44,3 +45,4 @@ public class IntegralValidationSms extends JedisTools {
 		this.delKeyFromJedis(RedisSetKeyConstant.USER_SEND_SMS_COUNT + ":" + uid);
 	}
 }
+*/

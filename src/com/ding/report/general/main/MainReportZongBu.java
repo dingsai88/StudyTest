@@ -34,12 +34,12 @@ public class MainReportZongBu {
 	 * @author daniel
 	 * @time 2015-5-19 上午11:35:03
 	 * @param args
-	 */
+
 	public static void main(String[] args) throws Exception {
 		ReadExcel xlsMain = new ReadExcel(EXCEL_PATH);
 		writeFile(printList(xlsMain.readXls()));
 		System.out.println("end"); 
-	}
+	}	 */
 
 	/**
 	 * 写入txt文件
@@ -47,7 +47,7 @@ public class MainReportZongBu {
 	 * @author ghost
 	 * @time 2015-5-19 上午11:48:47
 	 * @param result
-	 */
+
 	public static void writeFile(String result) {
 
 		try {
@@ -68,12 +68,12 @@ public class MainReportZongBu {
 			e.printStackTrace();
 		}
 	}
-
+	 */
 	/**
 	 * 将list内容以文本形式输出
 	 * 
 	 * @param list
-	 */
+
 	public static String printList(List<Map<String, String>> list) {
 		StringBuilder result = new StringBuilder();
 		try {
@@ -92,5 +92,5 @@ public class MainReportZongBu {
 
 		return result.toString();
 	}
-
+	 */
 }
