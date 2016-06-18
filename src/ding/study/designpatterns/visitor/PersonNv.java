@@ -16,6 +16,6 @@ public class PersonNv implements Person {
 	@Override
 	public String getMessage() {
 		//System.out.println("女人撒尿");
-		return "女人撒尿";
+		return "女人";
 	}
 }
