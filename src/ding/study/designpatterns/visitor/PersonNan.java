@@ -17,7 +17,7 @@ public class PersonNan implements Person {
 	@Override
 	public String getMessage() {
 		 
-		return "ÄĞÈËÈöÄò";
+		return "ÄĞÈË";
 	}
 
 }

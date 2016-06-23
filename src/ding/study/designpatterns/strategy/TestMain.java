@@ -14,8 +14,7 @@ package ding.study.designpatterns.strategy;
  
 
 -------------------------------------------------------------------------------------------
-
-需求变更是需要成本的，以后多考虑拓展性，老想偷懒，应付需求足以，改掉坏习惯。
+ 
 
  
  * @author daniel
@@ -28,8 +27,7 @@ public class TestMain {
   * @param args
   */
  public static void main(String[] args) {
-  // TODO Auto-generated method stub
-  Context context;
+   Context context;
   context= new Context(new ConcreteStrategyA());
   context.ContextInterface();
   
