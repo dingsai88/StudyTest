@@ -1,6 +1,5 @@
 package ding.study.designpatterns.proxy;
-
-import java.lang.reflect.Proxy;
+ 
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,28 +27,29 @@ public class Zmain {
 	 */
 	public static void main(String[] args) {
 
-		/*
-		 * Proxy proxy = new Proxy(); proxy.request();
-		 */
- 		Wan w=new Wan();
+		
+		 Proxy proxy = new Proxy(); 
+		 proxy.request();
+		 
+/* 		Wan w=new Wan();
 		WanInvocationImpl impl = new WanInvocationImpl(w);
 		Wan wan = (Wan)Proxy.newProxyInstance(Wan.class.getClassLoader(),new Class[] { Wan.class }, impl);
 
 		wan.run(); 
 	
 		
-/*		List list=(List)ProxyUtil.newProxyInstance(new ArrayList(), new MyAdvice());
+		List list=(List)ProxyUtil.newProxyInstance(new ArrayList(), new MyAdvice());
 		  list.add("aa");
 		  list.add("bb");
 		  System.out.println(list.size());
 		  list.clear();
 		  System.out.println(list.size());
-		  */
+		  
 		  
 			
 		  WanImpl list=(WanImpl)ProxyUtil.newProxyInstance(new WanImpl(), new MyAdvice());
 			 
- 			list.run();
+ 			list.run();*/
  		  
 	}
 
