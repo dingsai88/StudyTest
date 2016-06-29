@@ -1,144 +1,69 @@
-
-import org.apache.zookeeper.data.Stat;
-
-import org.apache.zookeeper.CreateMode;
-
-import org.apache.zookeeper.ZooDefs.Ids;
-
-import org.apache.zookeeper.WatchedEvent;
-
-import org.apache.zookeeper.Watcher;
-
-import org.apache.zookeeper.ZooKeeper;
-
-import org.I0Itec.zkclient.ZkClient;
-
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-/**
  
+ 
+import java.util.Scanner;
 
-		
+/**
+描述
+小明被一个问题给难住了，现在需要你帮帮忙。问题是：给出两个正整数，求出它们的最大公约数和最小公倍数。
+输入
+第一行输入一个整数n（0<n<=10000)，表示有n组测试数据;
+随后的n行输入两个整数i,j（0<i,j<=32767)。
+输出
+输出每组测试数据的最大公约数和最小公倍数
+样例输入
+3
+6 6
+12 11
+33 22
+样例输出
+6 6
+1 132
+11 66
 
-	    String connectionString="10.199.88.169:2181";
-	      int connectionTimeout=50000;
-	      
-	      ZkClient zkClient=new ZkClient(connectionString, connectionTimeout);
-	      
-	      System.out.println(zkClient.getChildren("/taobao"));
-	      
-	      String Path="/thirdName";
-	      
-	   // 创建一个与服务器的连接
-	      ZooKeeper zk = new ZooKeeper(connectionString, 
-	    		  connectionTimeout, new Watcher() { 
-	                 // 监控所有被触发的事件
-	                 public void process(WatchedEvent event) { 
-	                     System.out.println("已经触发了" + event.getType() + "事件！"); 
-	                 } 
-	             }); 
-	      // 创建一个目录节点
-	      zk.create(Path, "testRootData".getBytes(), Ids.OPEN_ACL_UNSAFE,
-	        CreateMode.PERSISTENT); 
-	      // 创建一个子目录节点
-	      zk.create(Path+"/testChildPathOne", "testChildDataOne".getBytes(),
-	        Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
-	      System.out.println(new String(zk.getData(Path+"",false,null))); 
-	      // 取出子目录节点列表
-	      System.out.println(zk.getChildren(Path+"",true)); 
-	      // 修改子目录节点数据
-	      zk.setData(Path+"/testChildPathOne","modifyChildDataOne".getBytes(),-1); 
-	      System.out.println("目录节点状态：["+zk.exists(Path+"",true)+"]"); 
-	      // 创建另外一个子目录节点
-	      zk.create(Path+"/testChildPathTwo", "testChildDataTwo".getBytes(), 
-	        Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
-	      System.out.println(new String(zk.getData(Path+"/testChildPathTwo",true,null))); 
-	      // 删除子目录节点
-	       zk.delete(Path+"/testChildPathTwo",-1); 
-	      zk.delete(Path+"/testChildPathOne",-1); 
-	      // 删除父目录节点
-	      zk.delete(Path+"",-1); 
-	      // 关闭连接
-	      zk.close();
-	      
-	      
-	      
-	      
-	      
-	      
-	      
- 	
+
+设两个数是a,b最大公约数是p,最小公倍数是q
+那么有这样的关系:ab=pq
+所以q=ab/p
+
  * @author daniel
  * @email 576699909@qq.com
- * @time 2016-5-17 上午10:20:59
+ * @time 2016-4-15 上午11:43:12
  */
 public class Main {
+	public static void main(String[] atg) throws Exception {
+		Scanner s = new Scanner(System.in);
+		int i = s.nextInt();
+ 		int n = 0;
+		int row[] = new int[i];
+		int col[] = new int[i];
+		while (n < i) {
+			int one = s.nextInt();
+			int two = s.nextInt();
+			row[n] = one;
+			col[n] = two;
+			n++;
+			int maxGongYue=gongYueShu(one,two);
+			//a*b=p*q
+			System.out.println(maxGongYue + " " + (one * two) / maxGongYue);
+		}
+		s.close();
 
-	public static void main(String[] args) throws Exception{
 
-	      
-	      String Path="/thirdName/ALLBAIDULBS";
-	    String []aa=  "10.199.88.169;10.1.120.124".split(";");
-	    
-	      System.out.println(aa[0]+";"+aa[1]);
-	    String connectionString="10.199.88.169:2181";
-	      int connectionTimeout=50000;
-	      
-	 /*     ZkClient zkClient= new ZkClient(connectionString, connectionTimeout);
-	      
-	  //    System.out.println(zkClient.getChildren("/TAOBAO"));
-	      System.out.println(zkClient.readData(Path+"/TAOBAO"));
-	      
-	      if(1==1){
-		      return;
- 
-	      }*/
-	      
-
-	   // 创建一个与服务器的连接
-	      ZooKeeper zk = new ZooKeeper(connectionString, 
-	    		  connectionTimeout, new Watcher() { 
-	                 // 监控所有被触发的事件
-	                 public void process(WatchedEvent event) {
-	                     System.out.println("已经触发了" + event.getType() + "事件！");
-	                 }
-	             });
-	      // 创建一个目录节点
-	   //   zk.create(Path, "testRootData".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT); 
-	      // 创建一个子目录节点
-	       zk.create(Path, "testTAOBAO".getBytes(), Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
-	     // System.out.println(new String(zk.getData(Path+"",false,null))); 
-	      // 取出子目录节点列表
-	     // System.out.println(zk.getChildren(Path+"",true)); 
-	      // 修改子目录节点数据
-	      zk.setData(Path,"10.199.88.169".getBytes(),-1); 
-	      System.out.println("目录节点状态：["+zk.exists(Path,true)+"]"); 
-			Stat stat=zk.exists(Path,true);
- 	      
- 	      // 创建另外一个子目录节点
-	    //  zk.create(Path+"/testChildPathTwo", "testChildDataTwo".getBytes(),  Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
-	      System.out.println(Path+"值:"+new String(zk.getData(Path,true,null))); 
-	      // 删除子目录节点
-	   //    zk.delete(Path+"/testChildPathTwo",-1); 
-	   //   zk.delete(Path+"/testChildPathOne",-1); 
-	      // 删除父目录节点
-	    //  zk.delete(Path+"",-1); 
-	      // 关闭连接
-	      zk.close();
-	      
-
-	      
-	      
-	      
-	      
-	      
- 	}
-	
-	public String test(){
-
-		return "hello";
 	}
-
-
+	/**
+	 设两个数是a,b最大公约数是p,最小公倍数是q
+那么有这样的关系:ab=pq
+所以q=ab/p
+	 */
+	private static int gongYueShu(int i ,int j){
+		int t;
+		while(i%j!=0){
+			t=i%j;
+			i=j;
+			j=t;
+		}	
+		return j;
+	}
+	
+	 
 }

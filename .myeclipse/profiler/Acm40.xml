@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="app_preset_prof_preset_name">Acm40 Launch Configuration</entry>
+<entry key="app_preset_prof_preset_filter_s"/>
+<entry key="app_preset_prof_preset_filter_p">com.ding.acm.*,
+com.ding.algorithm.study1.*,
+com.ding.file.*,
+com.ding.redis.*,
+com.ding.reflect.*,
+com.ding.report.general.main.*,
+com.ding.socket.*,
+com.ding.study.thread.ReadWriteLock.*,
+com.ding.util.*,
+com.ding.webservice.*,
+ding.study.designpatterns.adapter.*,
+ding.study.designpatterns.bridge.*,
+ding.study.designpatterns.builder.*,
+ding.study.designpatterns.chainofresponsibility.*,
+ding.study.designpatterns.command.*,
+ding.study.designpatterns.composite.*,
+ding.study.designpatterns.decorator.*,
+ding.study.designpatterns.facade.*,
+ding.study.designpatterns.flyweight.*,
+ding.study.designpatterns.interpreter.*,
+ding.study.designpatterns.iterator.*,
+ding.study.designpatterns.mediator.*,
+ding.study.designpatterns.prototype.*,
+ding.study.designpatterns.proxy.*,
+ding.study.designpatterns.singleton.*,
+ding.study.designpatterns.state.*,
+ding.study.designpatterns.strategy.*,
+ding.study.designpatterns.templatemethod.*,
+ding.study.designpatterns.visitor.*,
+mina.client.*,
+mina.common.*,
+mina.server.*</entry>
+<entry key="app_preset_prof_preset_alloc_p">10</entry>
+<entry key="app_preset_"/>
+<entry key="app_preset_prof_preset_samplingRefreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_stacks_p">false</entry>
+<entry key="app_preset_prof_preset_roots_p">com.ding.acm.**
+com.ding.algorithm.study1.**
+com.ding.file.**
+com.ding.redis.**
+com.ding.reflect.**
+com.ding.report.general.main.**
+com.ding.socket.**
+com.ding.study.thread.ReadWriteLock.**
+com.ding.util.**
+com.ding.webservice.**
+ding.study.designpatterns.adapter.**
+ding.study.designpatterns.bridge.**
+ding.study.designpatterns.builder.**
+ding.study.designpatterns.chainofresponsibility.**
+ding.study.designpatterns.command.**
+ding.study.designpatterns.composite.**
+ding.study.designpatterns.decorator.**
+ding.study.designpatterns.facade.**
+ding.study.designpatterns.flyweight.**
+ding.study.designpatterns.interpreter.**
+ding.study.designpatterns.iterator.**
+ding.study.designpatterns.mediator.**
+ding.study.designpatterns.prototype.**
+ding.study.designpatterns.proxy.**
+ding.study.designpatterns.singleton.**
+ding.study.designpatterns.state.**
+ding.study.designpatterns.strategy.**
+ding.study.designpatterns.templatemethod.**
+ding.study.designpatterns.visitor.**
+mina.client.**
+mina.common.**
+mina.server.**
+</entry>
+<entry key="profiler.settings.instrument.empty.methods">false</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">false</entry>
+<entry key="app_preset_prof_preset_samplingRate_s">100</entry>
+<entry key="app_preset_prof_preset_filterMode_s">true</entry>
+<entry key="app_preset_prof_preset_selector"/>
+<entry key="app_preset_prof_preset_refreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_runnables_p">true</entry>
+<entry key="app_preset_prof_preset_filterMode_p">false</entry>
+<entry key="app_preset_prof_preset_memoryMode_p">true</entry>
+</properties>
