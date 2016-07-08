@@ -1,8 +1,10 @@
 package com.ding.file;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.Reader;
 /**
  * 读取本地文件
@@ -48,5 +50,36 @@ public class TestFileMain {
 
 		return resultMessage;
 	}
+
+	
+	
+	
+	
+	
+	
+	
+
+
+    /**
+     * 读取文件D:\test.txt
+     * HttpGetUtil.readFile("D:\test.txt");
+     * @return
+     */
+    public static String readFile(String address){
+        String resultInfo = "";
+        BufferedReader br = null;
+        try {
+            br=new BufferedReader(new InputStreamReader(new FileInputStream(address),"UTF-8"));
+            StringBuffer sb = new StringBuffer();
+            String data = null;
+            while ((data = br.readLine()) != null) {
+                sb.append(data);
+            }
+            resultInfo = sb.toString();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return resultInfo;
+    }
 
 }
