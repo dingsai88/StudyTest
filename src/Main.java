@@ -31,6 +31,12 @@ import java.util.Scanner;
  */
 public class Main {
 	public static void main(String[] atg) throws Exception {
+		
+		
+		System.out.println("aaa".intern());
+
+		
+		
 		Scanner s = new Scanner(System.in);
 		int i = s.nextInt();
  		int n = 0;

@@ -35,7 +35,6 @@ public class DFS {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] Graph = new int[MAXN][MAXN];
 		boolean[] vis = new boolean[MAXN];
 		for (int i = 0; i < MAXN; i++) {

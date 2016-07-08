@@ -98,12 +98,20 @@ private static char[] charSet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		String str="001312100000-1304|housingfund_shijiazhuang";
+		String [] list=str.split("\\|");
  
-		temp("20150805111410734412501");
+		for(String a:list){
+			System.out.println(a);
+		}
+		
+		
+		/*temp("20150805111410734412501");
 		temp("20150724141711685418244");
 		temp("20150724000510417213033");
 		temp("20150805111410734412501");
-		
+		*/
 	}
 	public static void temp (String str){
 		String temp=compress(str);	
