@@ -225,8 +225,8 @@ public class HttpPostUtil {
     
     
 
-    /**\
-     * 聚信利302跳转
+    /**
+     * URL重定向结局302跳转
      * @param uc
      * @return
      */
