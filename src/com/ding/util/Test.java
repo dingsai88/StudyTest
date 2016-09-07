@@ -1,5 +1,9 @@
 package com.ding.util;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
 import java.util.Stack;
 
 
@@ -97,21 +101,32 @@ private static char[] charSet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijk
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		
-		String str="001312100000-1304|housingfund_shijiazhuang";
-		String [] list=str.split("\\|");
+	public static void main(String[] args) throws Exception{
+
+	
+	/*
+	      SimpleDateFormat sdf = new SimpleDateFormat("MMM dd, yyyy h:mm:ss a");
  
-		for(String a:list){
-			System.out.println(a);
-		}
-		
-		
-		/*temp("20150805111410734412501");
-		temp("20150724141711685418244");
-		temp("20150724000510417213033");
-		temp("20150805111410734412501");
-		*/
+
+	        String d = "Sep 29, 2016 4:46:45 PM";
+	        Date date = sdf.parse(d);
+	        System.out.println(date.getTime());
+	 
+	*/
+	
+	
+	        SimpleDateFormat sdf = new SimpleDateFormat("MMM d, yyyy K:m:s a",Locale.ENGLISH);
+	        Date d2 = null;
+	      
+	        d2 = sdf.parse("Sep 29, 2012 1:00:01 AM");
+	        
+	        Date d3 = new Date();
+	        System.out.println("d2 ====== "+d2.getTime());
+	        System.out.println("d3 ====== "+sdf.format(d3));
+	
+	        SimpleDateFormat myFmt1=new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");
+	        System.out.println("d4 ====== "+myFmt1.format(d2));
+	
 	}
 	public static void temp (String str){
 		String temp=compress(str);	

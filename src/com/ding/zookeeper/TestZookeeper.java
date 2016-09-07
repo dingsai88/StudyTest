@@ -55,11 +55,11 @@ public class TestZookeeper {
 	public static void main(String[] args) throws Exception {
 
 	      
-	      String Path="/thirdName/ALLBAIDULBS";
-	    String []aa=  "10.199.88.169;10.1.120.124".split(";");
+	  //    String Path="/thirdName/ALLBAIDULBS";
+	//    String []aa=  "10.199.88.169;10.1.120.124".split(";");
 	    
-	      System.out.println(aa[0]+";"+aa[1]);
-	    String connectionString="10.199.88.169:2181";
+	   //   System.out.println(aa[0]+";"+aa[1]);
+	    String connectionString="10.141.4.141:2181";
 	      int connectionTimeout=50000;
 	      
 	 /*     ZkClient zkClient= new ZkClient(connectionString, connectionTimeout);
@@ -84,18 +84,18 @@ public class TestZookeeper {
 	      // 创建一个目录节点
 	   //   zk.create(Path, "testRootData".getBytes(), Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT); 
 	      // 创建一个子目录节点
-	       zk.create(Path, "testTAOBAO".getBytes(), Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
+	    //   zk.create(Path, "testTAOBAO".getBytes(), Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
 	     // System.out.println(new String(zk.getData(Path+"",false,null))); 
 	      // 取出子目录节点列表
 	     // System.out.println(zk.getChildren(Path+"",true)); 
 	      // 修改子目录节点数据
-	      zk.setData(Path,"10.199.88.169".getBytes(),-1); 
-	      System.out.println("目录节点状态：["+zk.exists(Path,true)+"]"); 
-			Stat stat=zk.exists(Path,true);
+	    //  zk.setData(Path,"10.141.4.141".getBytes(),-1); 
+	    //  System.out.println("目录节点状态：["+zk.exists(Path,true)+"]"); 
+		//	Stat stat=zk.exists(Path,true);
 	      
 	      // 创建另外一个子目录节点
 	    //  zk.create(Path+"/testChildPathTwo", "testChildDataTwo".getBytes(),  Ids.OPEN_ACL_UNSAFE,CreateMode.PERSISTENT); 
-	      System.out.println(Path+"值:"+new String(zk.getData(Path,true,null))); 
+	   //   System.out.println(Path+"值:"+new String(zk.getData(Path,true,null))); 
 	      // 删除子目录节点
 	   //    zk.delete(Path+"/testChildPathTwo",-1); 
 	   //   zk.delete(Path+"/testChildPathOne",-1); 
