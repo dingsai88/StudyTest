@@ -13,15 +13,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
  
+
 import org.apache.log4j.Logger;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Tuple;
 import redis.clients.jedis.exceptions.JedisException;
-
-import com.hp.wandafilm.util.SerializeUtil;
 
 public abstract class JedisTools {
 	public abstract int getDBIndex();
@@ -36,8 +36,48 @@ public abstract class JedisTools {
 	public static Logger logger_failure = Logger.getLogger("logger_jCache_failure");
 
 	public JedisPool jedisPool;
-
+	
+    public  JedisPool getPool() {
+        if (jedisPool == null) {
+            JedisPoolConfig config = new JedisPoolConfig();
+            //控制一个pool可分配多少个jedis实例，通过pool.getResource()来获取；
+            //如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)。
+           // config.setMaxActive(500);
+            //控制一个pool最多有多少个状态为idle(空闲的)的jedis实例。
+            config.setMaxIdle(5);
+            //表示当borrow(引入)一个jedis实例时，最大的等待时间，如果超过等待时间，则直接抛出JedisConnectionException；
+          //  config.setMaxWait(1000 * 100);
+            //在borrow一个jedis实例时，是否提前进行validate操作；如果为true，则得到的jedis实例均是可用的；
+            config.setTestOnBorrow(true);
+            jedisPool = new JedisPool(config, "10.141.4.119", 6379);
+ 
+            
+        }
+        return jedisPool;
+    }
+	
+    /**
+     * 自己改写
+     * @return
+     * @throws JedisException
+     */
 	public Jedis getJedis() throws JedisException {
+		Jedis jedis = null;
+		try {
+		 
+				 jedis = new Jedis("10.141.4.119", 6379);
+				// 权限认证
+				jedis.auth("mim");
+				
+	 
+		} catch (JedisException e) {
+			e.printStackTrace();		
+			throw e;
+		}
+		return jedis;
+	}
+
+/*	public Jedis getJedis() throws JedisException {
 		Jedis jedis = null;
 		try {
 			synchronized (jedisPool) {
@@ -50,7 +90,7 @@ public abstract class JedisTools {
 			throw e;
 		}
 		return jedis;
-	}
+	}*/
 
 	public Jedis getJedis(int databaseIndex) {
 		Jedis jedis = null;
@@ -69,7 +109,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 得到索引处的得分和元�?
+	 * 得到索引处的得分和元�?
 	 * 
 	 * @param key
 	 * @param index
@@ -99,7 +139,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * �?有序集合 添加元素
+	 * �?有序集合 添加元素
 	 * 
 	 * @param key
 	 * @param score
@@ -123,7 +163,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获得有序集合中得分在 score1 �?score2 之间的元�?
+	 * 获得有序集合中得分在 score1 �?score2 之间的元�?
 	 * 
 	 * @param key
 	 * @param score1
@@ -148,7 +188,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获得有序集合中得分在 score1 �?score2 之间的元素的个数
+	 * 获得有序集合中得分在 score1 �?score2 之间的元素的个数
 	 * 
 	 * @param key
 	 * @param score1
@@ -195,7 +235,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获取list的长�?
+	 * 获取list的长�?
 	 * 
 	 * @param key
 	 * @param databaseIndex
@@ -218,7 +258,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 从list尾部取�?
+	 * 从list尾部取�?
 	 * 
 	 * @param key
 	 * @param databaseIndex
@@ -232,7 +272,7 @@ public abstract class JedisTools {
 			jedis = getJedis(getDBIndex());
 			if (jedis.exists(key))
 				popValue = jedis.rpop(key);
-			return StringUtils.isNotBlank(popValue) && !"nil".equals(popValue) ? popValue : null;
+			return popValue;
 		} catch (Exception e) {
 			e.printStackTrace();
 			isBroken = true;
@@ -244,7 +284,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 从list头部取�?
+	 * 从list头部取�?
 	 * 
 	 * @param key
 	 * @param databaseIndex
@@ -258,7 +298,7 @@ public abstract class JedisTools {
 			jedis = getJedis(getDBIndex());
 			if (jedis.exists(key))
 				popValue = jedis.lpop(key);
-			return StringUtils.isNotBlank(popValue) && !"nil".equals(popValue) ? popValue : null;
+			return popValue;
 		} catch (Exception e) {
 			e.printStackTrace();
 			isBroken = true;
@@ -298,7 +338,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 将对象加入到list的头�?
+	 * 将对象加入到list的头�?
 	 * 
 	 * @param key
 	 * @param obj
@@ -323,7 +363,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 从list尾部获取对象�?进制转化�?
+	 * 从list尾部获取对象�?进制转化�?
 	 * 
 	 * @return
 	 */
@@ -349,7 +389,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 从list阻塞队列取�?
+	 * 从list阻塞队列取�?
 	 * 
 	 * @param key
 	 * @param timeout
@@ -452,8 +492,8 @@ public abstract class JedisTools {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
 		try {
 			jedis = this.getJedis();
-			jedis.select(JedisConstant.BASIC_DB0);
-			suffix = jedis.incr(JedisConstant.PRIMARY_KEY);
+			jedis.select(0);
+			suffix = jedis.incr("");
 		} catch (Exception e) {
 			isBroken = true;
 			e.printStackTrace();
@@ -468,7 +508,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 设置字符�?
+	 * 设置字符�?
 	 * 
 	 * @param key
 	 * @param value
@@ -773,7 +813,7 @@ public abstract class JedisTools {
 			jedis.select(getDBIndex());
 			if (jedis.exists(key))
 				returnvalue = jedis.lpop(key);
-			return StringUtils.isNotBlank(returnvalue) && !"nil".equals(returnvalue) ? returnvalue : null;
+			return returnvalue;
 		} catch (JedisException e) {
 			e.printStackTrace();
 			isBroken = true;
@@ -859,7 +899,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获取指定区间的list�?
+	 * 获取指定区间的list�?
 	 * 
 	 * @param key
 	 * @param startIndex
@@ -901,7 +941,7 @@ public abstract class JedisTools {
 		try {
 			jedis = this.getJedis();
 			jedis.select(getDBIndex());
-			// 序列�?
+			// 序列�?
 			baos = new ByteArrayOutputStream();
 			oos = new ObjectOutputStream(baos);
 			oos.writeObject(object);
@@ -966,7 +1006,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 批量修改hash的�?
+	 * 批量修改hash的�?
 	 * 
 	 * @param key
 	 * @param map
@@ -997,7 +1037,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 单条修改hash的�?
+	 * 单条修改hash的�?
 	 * 
 	 * @param key
 	 * @param map
@@ -1030,7 +1070,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 为哈希表 key 中的指定字段的整数�?加上增量 increment
+	 * 为哈希表 key 中的指定字段的整数�?加上增量 increment
 	 * 
 	 * @param key
 	 * @param incrementField
@@ -1056,7 +1096,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 为哈希表 key 中的指定字段的整数�?加上增量 increment
+	 * 为哈希表 key 中的指定字段的整数�?加上增量 increment
 	 * 
 	 * @param key
 	 * @param incrementField
@@ -1081,7 +1121,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获取单个hash字段�?
+	 * 获取单个hash字段�?
 	 * 
 	 * @param key
 	 * @param field
@@ -1098,7 +1138,7 @@ public abstract class JedisTools {
 				jedis.select(getDBIndex());
 				if (jedis.exists(key)) {
 					value = jedis.hget(key, field);
-					value = StringUtils.isNotBlank(value) && !"nil".equalsIgnoreCase(value) ? value : null;
+					//value = StringUtils.isNotBlank(value) && !"nil".equalsIgnoreCase(value) ? value : null;
 				}
 			}
 		} catch (Exception e) {
@@ -1112,7 +1152,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获取多个hash字段�?
+	 * 获取多个hash字段�?
 	 * 
 	 * @param key
 	 * @param field
@@ -1208,7 +1248,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获取单个字符串的�?
+	 * 获取单个字符串的�?
 	 * 
 	 * @param key
 	 * @return
@@ -1222,7 +1262,7 @@ public abstract class JedisTools {
 			jedis.select(getDBIndex());
 			if (jedis.exists(key)) {
 				value = jedis.get(key);
-				value = StringUtils.isNotBlank(value) && !"nil".equalsIgnoreCase(value) ? value : null;
+				//value = StringUtils.isNotBlank(value) && !"nil".equalsIgnoreCase(value) ? value : null;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -1234,7 +1274,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 获取多个字符串的�?
+	 * 获取多个字符串的�?
 	 * 
 	 * @param key
 	 * @return
@@ -1275,7 +1315,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 删除某db的某个key�?
+	 * 删除某db的某个key�?
 	 * 
 	 * @param key
 	 * @return
@@ -1340,7 +1380,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 查看哈希�?key 中，指定的字段是否存�?
+	 * 查看哈希�?key 中，指定的字段是否存�?
 	 * 
 	 * @param key
 	 * @param field
@@ -1363,7 +1403,7 @@ public abstract class JedisTools {
 	}
 
 	/**
-	 * 释放连接�?
+	 * 释放连接�?
 	 * 
 	 * @param jedis
 	 * @param isBroken
@@ -1371,9 +1411,9 @@ public abstract class JedisTools {
 	public void release(Jedis jedis, boolean isBroken) {
 		if (jedis != null) {
 			if (isBroken) {
-				jedisPool.returnBrokenResource(jedis);
+				//jedisPool.returnBrokenResource(jedis);
 			} else {
-				jedisPool.returnResource(jedis);
+				//jedisPool.returnResource(jedis);
 			}
 		}
 	}

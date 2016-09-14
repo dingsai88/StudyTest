@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/Main.java=UTF-8
+encoding//src/com/ding/redis/JedisTools.java=UTF-8
 encoding//src/com/ding/report/general/main/MainReportZongBu.java=UTF-8
 encoding//src/com/ding/util/aes/AES.java=UTF-8
 encoding//src/com/ding/util/aes/Base64Encoder.java=UTF-8
