@@ -83,5 +83,6 @@
 	<classpathentry kind="lib" path="lib/jaxb-impl-2.1.13.jar"/>
 	<classpathentry kind="lib" path="lib/jaxen-1.1-beta-8.jar"/>
 	<classpathentry kind="lib" path="lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-0.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

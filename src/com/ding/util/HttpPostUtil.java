@@ -82,7 +82,7 @@ public class HttpPostUtil {
      */
     public static void main(String[] args) throws Exception{
 
-        String url = "https://www.juxinli.com/orgApi/rest/v2/house_fund/yirendai";
+        String url = "http://localhost:8080/TDM/eBank/queryClearData";
         System.out.println(url);
          //以下是测试用
         String resultInfo = "";
@@ -104,14 +104,7 @@ public class HttpPostUtil {
        // resultInfo.replaceAll("?","");
         
         
-          resultInfo = "{\"website\": \"housingfund_beijing\",\n" +
-                "  \"sort\": \"001110000000-1212\",\n" +
-                "  \"type\": \"auth_auto\",\n" +
-                "  \"id_card_num\": \"412724198711195435\",\n" +
-                "  \"joint_card_num\": \"6212260200042939153\",\n" +
-                "  \"cell_phone_num\": \"15901229166\",\n" +
-                "  \"password\": \"\",\n" +
-                "  \"name\":\"\"}";
+     
         
         System.out.println(resultInfo);
         String str="http://www.juxinli.com/api/access_house_fund_raw_data?client_secret=7cc69065511140aea16c0a8974c33e5f&access_token=2d2a5ae26d654b189a806f2e67e94dd9&token=343a98fb9bbb4efba83bb116b6926e8d";
