@@ -178,32 +178,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		System.out.println("haha:" + (Math.abs(22.2)%100==0));
-		 Double money =Double.parseDouble("-20001");
-			System.out.println("money:" + money);
-			
-		  if (money < -2000 && !(Math.abs(money) % 100 == 0)) {
-              //  logger.info("判断工资B.str:true");
-			  System.out.println("money符合:" + money);
-          }
-
-		
-		String strMoney = "-3333.01";
-		Double str = Double.parseDouble(strMoney);
-
-		if (strMoney.indexOf(".") != -1) {
-			// 小数点后不为0
-			strMoney = strMoney.substring(strMoney.indexOf(".") + 1,
-					strMoney.length());
-			// money=Math.abs(money);
-			System.out.println(strMoney);
-			if (str < -2000 && Integer.parseInt(strMoney) > 0) {
-				System.out.println("haha:" + str);
-
-			}
-		}
-
-		System.out.println("end:" + str);
+		System.out.println("haha:" + Integer.parseInt("10"));
+		 
 
 	}
 

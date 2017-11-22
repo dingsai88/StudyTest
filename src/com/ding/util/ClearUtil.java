@@ -124,7 +124,7 @@ public class ClearUtil {
 
 	public static void main(String[] args) throws Exception {
 		
-		System.out.println("1:" + ClearUtil.clearIdCard("52262619800410121X", "522626**800410121X") + "\n\n");
+		System.out.println("1:" + ClearUtil.clearIdCard("410185197706021012", "******19770602****") + "\n\n");
 		System.out.println("2:" + ClearUtil.clearIdCard("220503198006080528", "*****3198006080528") + "\n\n");
 		System.out.println("1:" + ClearUtil.clearIdCard("632824197603110117", "632824197603110***") + "\n\n");
 		System.out.println("3:" + ClearUtil.clearIdCard("110107198408270939", "uu0107198408270***") + "\n\n");

@@ -32,30 +32,16 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] atg) throws Exception {
 		
-		
-		System.out.println("aaa".intern());
+		 
 
-		
-		
-		Scanner s = new Scanner(System.in);
-		int i = s.nextInt();
- 		int n = 0;
-		int row[] = new int[i];
-		int col[] = new int[i];
-		while (n < i) {
-			int one = s.nextInt();
-			int two = s.nextInt();
-			row[n] = one;
-			col[n] = two;
-			n++;
-			int maxGongYue=gongYueShu(one,two);
-			//a*b=p*q
-			System.out.println(maxGongYue + " " + (one * two) / maxGongYue);
-		}
-		s.close();
-
-
+		MyThreadTest a=	 new MyThreadTest(); 
+		a.start();
+		Thread.sleep(1000);
+		a.start();
 	}
+	
+ 
+	
 	/**
 	 设两个数是a,b最大公约数是p,最小公倍数是q
 那么有这样的关系:ab=pq
