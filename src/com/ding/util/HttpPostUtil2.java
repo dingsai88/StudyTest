@@ -1,4 +1,5 @@
 package com.ding.util;
+/*
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -41,12 +42,14 @@ import com.google.gson.JsonParser;
 
 public class HttpPostUtil2 {
  
-	/**
+	*/
+/**
 	 * 发送 get 请求
 	 * 
 	 * @param
 	 * @return {@link JsonObject}
-	 */
+	 *//*
+
 	public static void main(String[] args) {
 
 		String url = "http://localhost:8080/TDM/eBank/queryClearData";
@@ -68,7 +71,8 @@ public class HttpPostUtil2 {
 				
 				method2("d:\\testAll201611151400.txt",data+"--"+result);
 				
-				/*
+				*/
+/*
 				 try { 
 
 					   File file = new File("d:\\testAll.txt");
@@ -89,7 +93,8 @@ public class HttpPostUtil2 {
 					   e.printStackTrace();
 					  
 					 }
-*/
+*//*
+
 			}
 			// resultInfo = sb.toString();
 		} catch (Exception e) {
@@ -105,12 +110,14 @@ public class HttpPostUtil2 {
 	
 
 	  
-    /**  
+    */
+/**
      * 追加文件：使用FileWriter  
      *   
      * @param fileName  
      * @param content  
-     */  
+     *//*
+
     public static void method2(String fileName, String content) { 
     	FileWriter writer = null;
         try {   
@@ -181,3 +188,4 @@ public class HttpPostUtil2 {
 
  
 }
+*/

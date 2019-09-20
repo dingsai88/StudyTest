@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="953fb969-d07b-4aa7-a514-22e6cad0876c" name="Default" comment="新增test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main.class" afterPath="$PROJECT_DIR$/bin/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyThreadTest.class" afterPath="$PROJECT_DIR$/bin/MyThreadTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/ACM2.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/ACM2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm11.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm12.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm12.class" />
@@ -14,11 +15,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm21$CupNode.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm21$CupNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm21.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm21.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm4.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm40.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm40.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm6.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm7.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm7_temp.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm7_temp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm8.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/ActiveTime.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/ActiveTime.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/BaiJiWenTiMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/BaiJiWenTiMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/BinarySeach.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/BinarySeach.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/DFS$Stack.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/DFS$Stack.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/DFS.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/DFS.class" />
@@ -27,21 +30,49 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle2.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/XtoN.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/XtoN.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/algorithm/study1/Zmain.class" afterPath="$PROJECT_DIR$/bin/com/ding/algorithm/study1/Zmain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/file/TestFileMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/file/TestFileMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory$OOMObject.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory$OOMObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainVMStackSOF.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainVMStackSOF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/RuntimeConstantPoolOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM$OOMObject.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM$OOMObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study2JavaVMStackSOF.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study2JavaVMStackSOF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study4RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study4RuntimeConstantPoolOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study5RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study5RuntimeConstantPoolOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM$OOMObject.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM$OOMObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study7DirectMemoryOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study7DirectMemoryOOM.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/redis/JedisTools.class" afterPath="$PROJECT_DIR$/bin/com/ding/redis/JedisTools.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/redis/SerializeUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/redis/SerializeUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/redis/ZMainRedisHash.class" afterPath="$PROJECT_DIR$/bin/com/ding/redis/ZMainRedisHash.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/reflect/TestClass.class" afterPath="$PROJECT_DIR$/bin/com/ding/reflect/TestClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/report/general/main/MainReportZongBu.class" afterPath="$PROJECT_DIR$/bin/com/ding/report/general/main/MainReportZongBu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/socket/TestClient.class" afterPath="$PROJECT_DIR$/bin/com/ding/socket/TestClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/socket/TestServer.class" afterPath="$PROJECT_DIR$/bin/com/ding/socket/TestServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionary.class" afterPath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionary.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionaryTest.class" afterPath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionaryTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/ReadWriteLockMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/ReadWriteLockMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$2.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/TestMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/ClearUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/ClearUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/CompressUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/CompressUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/CompressUtilBak.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/CompressUtilBak.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/DESUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/DESUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil2.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/ReadExcel.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/ReadExcel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/Test$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/Test$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/Test.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/TestSeat.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/TestSeat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/TestSql.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/TestSql.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/AES.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/AES.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Decoder.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Decoder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Encoder.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Encoder.class" />
@@ -53,6 +84,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlLocator.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlLocator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlPortType.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlPortType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/ZTestMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper.class" afterPath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Department.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Department.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentService.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceMySqlImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceMySqlImpl.class" />
@@ -198,9 +231,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/common/BaseConfig.class" afterPath="$PROJECT_DIR$/bin/mina/common/BaseConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/server/MinaTimeServer.class" afterPath="$PROJECT_DIR$/bin/mina/server/MinaTimeServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/server/TimeServerHandler.class" afterPath="$PROJECT_DIR$/bin/mina/server/TimeServerHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ding/study/designpatterns/proxy/WanImpl.java" afterPath="$PROJECT_DIR$/src/ding/study/designpatterns/proxy/WanImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ding/study/designpatterns/proxy/Zmain.java" afterPath="$PROJECT_DIR$/src/ding/study/designpatterns/proxy/Zmain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java" afterPath="$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/redis/JedisTools.java" afterPath="$PROJECT_DIR$/src/com/ding/redis/JedisTools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java" afterPath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java" afterPath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java" />
     </list>
     <ignored path="Study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -213,7 +249,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -223,22 +258,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZTestMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/ZTestMain.java">
+      <file leaf-file-name="ZMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/mediator/ZMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="111">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/generatorConfig.xml">
+      <file leaf-file-name="Study6JavaMethodAreaOOM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="66">
+              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpPostUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="244" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+              <folding>
+                <marker date="1568950729277" expanded="false" signature="1181:1208" ph="/unused/" />
+                <marker date="1568950729277" expanded="false" signature="1284:1311" ph="/unused/" />
+                <marker date="1568950729277" expanded="false" signature="1517:1544" ph="/unused/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpPostUtil2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1584">
+              <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisTools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ding/redis/JedisTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1980">
+              <caret line="1431" column="31" lean-forward="true" selection-start-line="1431" selection-start-column="31" selection-end-line="1431" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1568950729307" expanded="false" signature="4010:4018" ph="&lt;~&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -251,6 +323,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Enhancer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -271,9 +348,12 @@
         <option value="$PROJECT_DIR$/src/com/ding/report/general/main/MainReportZongBu.java" />
         <option value="$PROJECT_DIR$/src/com/ding/redis/SerializeUtil.java" />
         <option value="$PROJECT_DIR$/src/com/ding/redis/IntegralValidationSms.java" />
-        <option value="$PROJECT_DIR$/src/com/ding/redis/JedisTools.java" />
         <option value="$PROJECT_DIR$/test/MainTest.groovy" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ding/redis/JedisTools.java" />
+        <option value="$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java" />
+        <option value="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java" />
       </list>
     </option>
   </component>
@@ -286,8 +366,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -310,16 +390,6 @@
         </selected-state>
       </profile-state>
     </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -345,12 +415,6 @@
               <option name="myItemId" value="Study" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StudyTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -384,21 +448,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -420,11 +470,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="socket" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,11 +496,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jvm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,9 +543,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
@@ -478,7 +561,19 @@
       <recent name="E:\DingSai\DingProject\StudyTest\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockMain">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Zmain">
     <configuration default="false" name="ZTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -539,13 +634,54 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="ZMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ding.study.designpatterns.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ding.study.designpatterns.mediator.ZMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Study" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Zmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ding.study.designpatterns.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ding.study.designpatterns.iterator.Zmain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Study" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -555,11 +691,20 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -578,8 +723,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -665,6 +819,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -756,6 +913,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -772,27 +930,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -820,6 +957,19 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -893,34 +1043,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -931,7 +1053,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -943,18 +1065,41 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ZTestMain" />
       <item index="1" class="java.lang.String" itemvalue="Application.ACM2" />
       <item index="2" class="java.lang.String" itemvalue="Application.ReadWriteLockMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ZMain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Zmain" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.ReadWriteLockMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ZTestMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ACM2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Zmain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ZMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ReadWriteLockMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ZTestMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ACM2" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -969,43 +1114,53 @@
       <workItem from="1466056099712" duration="6882000" />
       <workItem from="1466564739973" duration="1810000" />
       <workItem from="1466758253943" duration="2699000" />
+      <workItem from="1568949873080" duration="846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11391000" />
+    <option name="totallyTimeSpent" value="12237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1025,8 +1180,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/ZTestMain.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/ZTestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="27" selection-end-column="0" />
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1034,7 +1205,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1042,92 +1213,78 @@
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/ZTestMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/Aggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/flyweight/ZTestMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/Zmain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/TestPaperXiaoHong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/TestPaperXiaoMing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/TestPaper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.5.jar!/org/apache/zookeeper/Watcher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/redis/SerializeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/redis/IntegralValidationSms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
-          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/webservice/WsdlLocator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/redis/ZMainRedisHash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/acm/ACM2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="898">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+          <caret line="72" column="38" lean-forward="false" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1292,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1143,25 +1300,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/ding/study/thread/ReadWriteLock/ReadWriteLockMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ding/redis/JedisTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8327">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/study/thread/ReadWriteLock/RWDictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+          <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1169,39 +1315,145 @@
     <entry file="file://$PROJECT_DIR$/src/com/ding/socket/TestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/socket/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ding/report/general/main/MainReportZongBu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
-          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
-          <folding />
+          <caret line="92" column="33" lean-forward="false" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/templatemethod/ZTestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="495">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="474">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/Aggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/ConcreteAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/Zmain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/iterator/ConcreteIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#314#315#0" expanded="false" />
+            <element signature="e#347#348#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2673">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/mediator/ZMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ding/redis/JedisTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1980">
+          <caret line="1431" column="31" lean-forward="true" selection-start-line="1431" selection-start-column="31" selection-end-line="1431" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1568950729307" expanded="false" signature="4010:4018" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="244" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <folding>
+            <marker date="1568950729277" expanded="false" signature="1181:1208" ph="/unused/" />
+            <marker date="1568950729277" expanded="false" signature="1284:1311" ph="/unused/" />
+            <marker date="1568950729277" expanded="false" signature="1517:1544" ph="/unused/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1246,7 +1498,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1263,6 +1515,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

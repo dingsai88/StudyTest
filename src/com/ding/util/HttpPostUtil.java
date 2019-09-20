@@ -1,4 +1,5 @@
 package com.ding.util;
+/*
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -74,12 +75,14 @@ public class HttpPostUtil {
 
     static JsonParser jsonParser = new JsonParser();
 
-    /**
+    */
+/**
      * 发送 get 请求
      *
      * @param
      * @return {@link JsonObject}
-     */
+     *//*
+
     public static void main(String[] args) throws Exception{
 
         String url = "http://localhost:8080/TDM/eBank/queryClearData";
@@ -179,12 +182,14 @@ public class HttpPostUtil {
     }
 
 
-    /**
+    */
+/**
      * Header 为 application/json POST 请求数据
      *
      * @param resp
      * @return {@link JsonObject}
-     */
+     *//*
+
     private static JsonObject convertResponseBytes2JsonObj(HttpResponse resp) {
 
         JsonObject jsonObject = null;
@@ -218,11 +223,13 @@ public class HttpPostUtil {
     
     
 
-    /**
+    */
+/**
      * URL重定向结局302跳转
      * @param uc
      * @return
-     */
+     *//*
+
     private static URLConnection reload(URLConnection uc)   {
         try {
             HttpURLConnection huc = (HttpURLConnection) uc;
@@ -241,3 +248,4 @@ public class HttpPostUtil {
     
 
 }
+*/

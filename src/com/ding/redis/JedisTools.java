@@ -22,17 +22,22 @@ import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.Pipeline;
 import redis.clients.jedis.Tuple;
 import redis.clients.jedis.exceptions.JedisException;
+/*
 
 public abstract class JedisTools {
 	public abstract int getDBIndex();
 
-	/**
+	*/
+/**
 	 * 默认日志打印logger_default
-	 */
+	 *//*
+
 	public static Logger logger_default = Logger.getLogger("logger_jCache_default");
-	/**
+	*/
+/**
 	 * 失败日志logger，用于定期del指定的key
-	 */
+	 *//*
+
 	public static Logger logger_failure = Logger.getLogger("logger_jCache_failure");
 
 	public JedisPool jedisPool;
@@ -44,23 +49,25 @@ public abstract class JedisTools {
             //如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)。
            // config.setMaxActive(500);
             //控制一个pool最多有多少个状态为idle(空闲的)的jedis实例。
-            config.setMaxIdle(5);
+            //config.setMaxIdle(5);
             //表示当borrow(引入)一个jedis实例时，最大的等待时间，如果超过等待时间，则直接抛出JedisConnectionException；
           //  config.setMaxWait(1000 * 100);
             //在borrow一个jedis实例时，是否提前进行validate操作；如果为true，则得到的jedis实例均是可用的；
-            config.setTestOnBorrow(true);
-            jedisPool = new JedisPool(config, "10.141.4.119", 6379);
+            //config.setTestOnBorrow(true);
+          //  jedisPool = new JedisPool(config, "10.141.4.119", 6379);
  
             
         }
         return jedisPool;
     }
 	
-    /**
+    */
+/**
      * 自己改写
      * @return
      * @throws JedisException
-     */
+     *//*
+
 	public Jedis getJedis() throws JedisException {
 		Jedis jedis = null;
 		try {
@@ -77,6 +84,7 @@ public abstract class JedisTools {
 		return jedis;
 	}
 
+*/
 /*	public Jedis getJedis() throws JedisException {
 		Jedis jedis = null;
 		try {
@@ -90,7 +98,8 @@ public abstract class JedisTools {
 			throw e;
 		}
 		return jedis;
-	}*/
+	}*//*
+
 
 	public Jedis getJedis(int databaseIndex) {
 		Jedis jedis = null;
@@ -108,13 +117,15 @@ public abstract class JedisTools {
 		return jedis;
 	}
 
-	/**
+	*/
+/**
 	 * 得到索引处的得分和元�?
 	 * 
 	 * @param key
 	 * @param index
 	 * @return
-	 */
+	 *//*
+
 	public Tuple zrangeOneMemberScores(String key, long index) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -138,14 +149,16 @@ public abstract class JedisTools {
 		return null;
 	}
 
-	/**
+	*/
+/**
 	 * �?有序集合 添加元素
 	 * 
 	 * @param key
 	 * @param score
 	 * @param value
 	 * @return
-	 */
+	 *//*
+
 	public long zadd(String key, long score, String value) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -162,14 +175,16 @@ public abstract class JedisTools {
 		return 0L;
 	}
 
-	/**
+	*/
+/**
 	 * 获得有序集合中得分在 score1 �?score2 之间的元�?
 	 * 
 	 * @param key
 	 * @param score1
 	 * @param score2
 	 * @return
-	 */
+	 *//*
+
 	public Set<String> zrangeByScore(String key, String score1, String score2) {
 		Jedis jedis = null;
 		Set<String> set = new HashSet<String>();
@@ -187,14 +202,16 @@ public abstract class JedisTools {
 		return set;
 	}
 
-	/**
+	*/
+/**
 	 * 获得有序集合中得分在 score1 �?score2 之间的元素的个数
 	 * 
 	 * @param key
 	 * @param score1
 	 * @param score2
 	 * @return
-	 */
+	 *//*
+
 	public long zcountByScore(String key, String score1, String score2) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -211,13 +228,15 @@ public abstract class JedisTools {
 		return 0;
 	}
 
-	/**
+	*/
+/**
 	 * 删除list
 	 * 
 	 * @param key
 	 * @param databaseIndex
 	 * @return
-	 */
+	 *//*
+
 	public long deleteListFromRedis(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -234,13 +253,15 @@ public abstract class JedisTools {
 		return 0;
 	}
 
-	/**
+	*/
+/**
 	 * 获取list的长�?
 	 * 
 	 * @param key
 	 * @param databaseIndex
 	 * @return
-	 */
+	 *//*
+
 	public long getQueueLength(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -257,13 +278,15 @@ public abstract class JedisTools {
 		return 0;
 	}
 
-	/**
+	*/
+/**
 	 * 从list尾部取�?
 	 * 
 	 * @param key
-	 * @param databaseIndex
+	 * @param
 	 * @return
-	 */
+	 *//*
+
 	public String getRpop(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -283,13 +306,15 @@ public abstract class JedisTools {
 		return null;
 	}
 
-	/**
+	*/
+/**
 	 * 从list头部取�?
 	 * 
 	 * @param key
 	 * @param databaseIndex
 	 * @return
-	 */
+	 *//*
+
 	public String getLpop(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -309,13 +334,15 @@ public abstract class JedisTools {
 		return null;
 	}
 
-	/**
+	*/
+/**
 	 * 从list头部将对象集合按顺序写入
 	 * 
 	 * @param key
 	 * @param list
 	 * @param cacheSeconds
-	 */
+	 *//*
+
 	public void pushObjectListToQueueHead(String key, List<Object> list, int cacheSeconds) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -337,13 +364,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 将对象加入到list的头�?
 	 * 
 	 * @param key
 	 * @param obj
 	 * @param cacheSeconds
-	 */
+	 *//*
+
 	public void pushObjectToQueueHead(String key, Object obj, int cacheSeconds) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -362,11 +391,13 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 从list尾部获取对象�?进制转化�?
 	 * 
 	 * @return
-	 */
+	 *//*
+
 	public Object getObjectFromQueueHead(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -388,13 +419,15 @@ public abstract class JedisTools {
 		return null;
 	}
 
-	/**
+	*/
+/**
 	 * 从list阻塞队列取�?
 	 * 
 	 * @param key
 	 * @param timeout
 	 * @return
-	 */
+	 *//*
+
 	public List<byte[]> getListByBlpop(String key, int timeout) {
 		boolean isBroken = false;
 		Jedis jedis = null;
@@ -413,14 +446,16 @@ public abstract class JedisTools {
 		return list;
 	}
 
-	/**
+	*/
+/**
 	 * 获取list队列区间之内的字符串集合
 	 * 
 	 * @param key
 	 * @param startIndex
 	 * @param endIndex
 	 * @return
-	 */
+	 *//*
+
 	public List<String> getQueueData(String key, Long startIndex, Long endIndex) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -438,7 +473,8 @@ public abstract class JedisTools {
 		return list;
 	}
 
-	/**
+	*/
+/**
 	 * 分页查询数据
 	 * 
 	 * @param key
@@ -447,7 +483,8 @@ public abstract class JedisTools {
 	 * @param perPage
 	 *            每页显示条数
 	 * @return
-	 */
+	 *//*
+
 	public List<String> getPageListFromJedis(String key, int pageNum, int perPage) {
 		List<String> list = null;
 		boolean isBroken = false;
@@ -480,11 +517,13 @@ public abstract class JedisTools {
 		return list;
 	}
 
-	/**
+	*/
+/**
 	 * 生成主键
 	 * 
 	 * @return
-	 */
+	 *//*
+
 	public String getPrimaryKey() {
 		boolean isBroken = false;
 		Jedis jedis = null;
@@ -507,14 +546,16 @@ public abstract class JedisTools {
 		return sdf.format(new Date()) + suffix;
 	}
 
-	/**
+	*/
+/**
 	 * 设置字符�?
 	 * 
 	 * @param key
 	 * @param value
 	 * @param cacheSeconds
 	 * @return
-	 */
+	 *//*
+
 	public String addStringToJedis(String key, String value, int cacheSeconds) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -535,14 +576,16 @@ public abstract class JedisTools {
 		return lastVal;
 	}
 
-	/**
+	*/
+/**
 	 * 获取字符串的值，先获取在设置
 	 * 
 	 * @param key
 	 * @param value
 	 * @param cacheSeconds
 	 * @return
-	 */
+	 *//*
+
 	public String getSetStringToJedis(String key, String value, int cacheSeconds) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -563,12 +606,14 @@ public abstract class JedisTools {
 		return lastVal;
 	}
 
-	/**
+	*/
+/**
 	 * 设置字符串的值，pipelined
 	 * 
 	 * @param batchData
 	 * @param cacheSeconds
-	 */
+	 *//*
+
 	public void addStringToJedis(Map<String, String> batchData, int cacheSeconds) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -627,13 +672,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 将指定的值插入到list尾部
 	 * 
 	 * @param key
 	 * @param data
 	 * @param cacheSeconds
-	 */
+	 *//*
+
 	public void pushDataToListJedis(String key, String data, int cacheSeconds) {
 		if (data != null && data.length() > 0) {
 			Jedis jedis = null;
@@ -654,13 +701,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 将集合写入list
 	 * 
 	 * @param key
 	 * @param list
 	 * @param cacheSeconds
-	 */
+	 *//*
+
 	public void addListToJedis(String key, List<String> list, int cacheSeconds) {
 		if (list != null && list.size() > 0) {
 			Jedis jedis = null;
@@ -689,14 +738,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 将指定的字符串插入到list尾部
 	 * 
 	 * @param key
 	 * @param value
 	 * @param cacheSeconds
-	 * @param methodName
-	 */
+ 	 *//*
+
 	public boolean addStringToListJedis(String key, String value[], int cacheSeconds) {
 		boolean returnStatus = false;
 		if (value != null && value.length > 0) {
@@ -725,14 +775,16 @@ public abstract class JedisTools {
 		return returnStatus;
 	}
 
-	/**
+	*/
+/**
 	 * 将指定的字符串插入到list头部
 	 * 
 	 * @param key
 	 * @param value
 	 * @param cacheSeconds
 	 * @param methodName
-	 */
+	 *//*
+
 	public boolean addStringToListBylpushJedis(String key, String value[], int cacheSeconds) {
 		boolean returnStatus = false;
 		if (value != null && value.length > 0) {
@@ -761,14 +813,16 @@ public abstract class JedisTools {
 		return returnStatus;
 	}
 
-	/**
+	*/
+/**
 	 * 将指定的字符串集合插入到list头部
 	 * 
 	 * @param key
 	 * @param value
 	 * @param cacheSeconds
 	 * @param methodName
-	 */
+	 *//*
+
 	public boolean addStringToListBylpushJedis(String key, String value, int cacheSeconds) {
 		boolean returnStatus = false;
 		Jedis jedis = null;
@@ -796,14 +850,16 @@ public abstract class JedisTools {
 		return returnStatus;
 	}
 
-	/**
+	*/
+/**
 	 * 从list头部获取数据
 	 * 
 	 * @param key
 	 * @param value
 	 * @param cacheSeconds
 	 * @param methodName
-	 */
+	 *//*
+
 	public String getStringFromListByLpopJedis(String key) {
 		String returnvalue = null;
 		Jedis jedis = null;
@@ -844,13 +900,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 删除list中的元素
 	 * 
 	 * @param key
 	 * @param values
 	 * @param methodName
-	 */
+	 *//*
+
 	public void deleteDataFromListJedis(String key, List<String> values) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -872,13 +930,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 获取list全部
 	 * 
 	 * @param key
 	 * @return
 	 * @throws Exception
-	 */
+	 *//*
+
 	public List<String> getListFromJedis(String key) {
 		List<String> list = null;
 		boolean isBroken = false;
@@ -898,7 +958,8 @@ public abstract class JedisTools {
 		return list;
 	}
 
-	/**
+	*/
+/**
 	 * 获取指定区间的list�?
 	 * 
 	 * @param key
@@ -906,7 +967,8 @@ public abstract class JedisTools {
 	 * @param endIndex
 	 * @return
 	 * @throws Exception
-	 */
+	 *//*
+
 	public List<String> getListFromJedis(String key, int startIndex, int endIndex) throws Exception {
 		List<String> list = null;
 		boolean isBroken = false;
@@ -926,13 +988,15 @@ public abstract class JedisTools {
 		return list;
 	}
 
-	/**
+	*/
+/**
 	 * 将对象写入jedis
 	 * 
 	 * @param key
 	 * @param object
 	 * @param cacheSeconds
-	 */
+	 *//*
+
 	public void pushObjectToListJedis(String key, Object object, int cacheSeconds) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -966,14 +1030,16 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 从redis读取对象
 	 * 
 	 * @param key
 	 * @param object
 	 * @param cacheSeconds
 	 * @return
-	 */
+	 *//*
+
 	public Object getObjectFromListJedis(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1005,7 +1071,8 @@ public abstract class JedisTools {
 		return obj;
 	}
 
-	/**
+	*/
+/**
 	 * 批量修改hash的�?
 	 * 
 	 * @param key
@@ -1013,7 +1080,8 @@ public abstract class JedisTools {
 	 * @param cacheSeconds
 	 * @param isModified
 	 * @param methodName
-	 */
+	 *//*
+
 	public boolean addHashMapToJedis(String key, Map<String, String> map, int cacheSeconds, boolean isModified) {
 		boolean isBroken = true;
 		boolean status = true;
@@ -1036,7 +1104,8 @@ public abstract class JedisTools {
 		return status;
 	}
 
-	/**
+	*/
+/**
 	 * 单条修改hash的�?
 	 * 
 	 * @param key
@@ -1044,7 +1113,8 @@ public abstract class JedisTools {
 	 * @param cacheSeconds
 	 * @param isModified
 	 * @param methodName
-	 */
+	 *//*
+
 	public boolean addHashMapToJedis(String key, String field, String value, int cacheSeconds) {
 		boolean isBroken = false;
 		boolean status = true;
@@ -1069,14 +1139,16 @@ public abstract class JedisTools {
 		return status;
 	}
 
-	/**
+	*/
+/**
 	 * 为哈希表 key 中的指定字段的整数�?加上增量 increment
 	 * 
 	 * @param key
 	 * @param incrementField
 	 * @param incrementValue
 	 * @param methodName
-	 */
+	 *//*
+
 	public boolean updateHashMapToJedis(String key, String incrementField, long incrementValue) {
 		boolean isBroken = false;
 		boolean status = true;
@@ -1095,14 +1167,16 @@ public abstract class JedisTools {
 		return status;
 	}
 
-	/**
+	*/
+/**
 	 * 为哈希表 key 中的指定字段的整数�?加上增量 increment
 	 * 
 	 * @param key
 	 * @param incrementField
 	 * @param incrementValue
 	 * @param methodName
-	 */
+	 *//*
+
 	public Long autoIncretmentHash(String key, String incrementField, long incrementValue) {
 		boolean isBroken = false;
 		Long returnVlue = 0l;
@@ -1120,14 +1194,16 @@ public abstract class JedisTools {
 		return returnVlue;
 	}
 
-	/**
+	*/
+/**
 	 * 获取单个hash字段�?
 	 * 
 	 * @param key
 	 * @param field
 	 * @param methodName
 	 * @return
-	 */
+	 *//*
+
 	public String getHashMapValueFromJedis(String key, String field) {
 		String value = null;
 		boolean isBroken = false;
@@ -1151,14 +1227,16 @@ public abstract class JedisTools {
 		return value;
 	}
 
-	/**
+	*/
+/**
 	 * 获取多个hash字段�?
 	 * 
 	 * @param key
 	 * @param field
 	 * @param methodName
 	 * @return
-	 */
+	 *//*
+
 	public List<String> getHashMapValueFromJedis(String key, String[] fields) {
 		List<String> value = null;
 		boolean isBroken = false;
@@ -1180,13 +1258,15 @@ public abstract class JedisTools {
 		return value;
 	}
 
-	/**
+	*/
+/**
 	 * 删除hash中的元素
 	 * 
 	 * @param key
 	 * @param values
 	 * @param methodName
-	 */
+	 *//*
+
 	public void deleteDataFromHashJedis(String key, String fields[]) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1202,13 +1282,15 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 获取hash中所有的元素
 	 * 
 	 * @param key
 	 * @param values
 	 * @param methodName
-	 */
+	 *//*
+
 	public Map<String, String> getHashMapFromJedis(String key) {
 		Map<String, String> hashMap = null;
 		boolean isBroken = false;
@@ -1226,12 +1308,14 @@ public abstract class JedisTools {
 		return hashMap;
 	}
 
-	/**
+	*/
+/**
 	 * 按域 删除 hash中的元素
 	 * 
 	 * @param key
 	 * @param fields
-	 */
+	 *//*
+
 	public void deleteDataFromHashJedisByField(String key, String fields) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1247,12 +1331,14 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 获取单个字符串的�?
 	 * 
 	 * @param key
 	 * @return
-	 */
+	 *//*
+
 	public String getStringFromJedis(String key) {
 		String value = null;
 		Jedis jedis = null;
@@ -1273,12 +1359,14 @@ public abstract class JedisTools {
 		return value;
 	}
 
-	/**
+	*/
+/**
 	 * 获取多个字符串的�?
 	 * 
 	 * @param key
 	 * @return
-	 */
+	 *//*
+
 	public List<String> getStringFromJedis(String[] keys) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1314,12 +1402,14 @@ public abstract class JedisTools {
 		return list;
 	}
 
-	/**
+	*/
+/**
 	 * 删除某db的某个key�?
 	 * 
 	 * @param key
 	 * @return
-	 */
+	 *//*
+
 	public Long delKeyFromJedis(String key) {
 		boolean isBroken = false;
 		Jedis jedis = null;
@@ -1337,11 +1427,13 @@ public abstract class JedisTools {
 		return result;
 	}
 
-	/**
+	*/
+/**
 	 * 根据dbIndex flushDB每个shard
 	 * 
 	 * @param dbIndex
-	 */
+	 *//*
+
 	public void flushDBFromJedis(int dbIndex) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1357,12 +1449,14 @@ public abstract class JedisTools {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 验证key是否存在
 	 * 
 	 * @param key
 	 * @return
-	 */
+	 *//*
+
 	public boolean existKey(String key) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1379,13 +1473,15 @@ public abstract class JedisTools {
 		return false;
 	}
 
-	/**
+	*/
+/**
 	 * 查看哈希�?key 中，指定的字段是否存�?
 	 * 
 	 * @param key
 	 * @param field
 	 * @return
-	 */
+	 *//*
+
 	public boolean existHashKeyField(String key, String field) {
 		Jedis jedis = null;
 		boolean isBroken = false;
@@ -1402,12 +1498,14 @@ public abstract class JedisTools {
 		return false;
 	}
 
-	/**
+	*/
+/**
 	 * 释放连接�?
 	 * 
 	 * @param jedis
 	 * @param isBroken
-	 */
+	 *//*
+
 	public void release(Jedis jedis, boolean isBroken) {
 		if (jedis != null) {
 			if (isBroken) {
@@ -1418,3 +1516,4 @@ public abstract class JedisTools {
 		}
 	}
 }
+*/
