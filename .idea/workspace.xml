@@ -1,242 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953fb969-d07b-4aa7-a514-22e6cad0876c" name="Default" comment="新增test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main.class" afterPath="$PROJECT_DIR$/bin/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyThreadTest.class" afterPath="$PROJECT_DIR$/bin/MyThreadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/ACM2.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/ACM2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm11.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm12.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm13.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm14.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm16.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm17.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm19.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm21$CupNode.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm21$CupNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm21.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm4.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm40.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm40.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm6.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm7.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm7_temp.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm7_temp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm8.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Acm8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/ActiveTime.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/ActiveTime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/BaiJiWenTiMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/BaiJiWenTiMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/BinarySeach.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/BinarySeach.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/DFS$Stack.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/DFS$Stack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/DFS.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/DFS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/QuickSort.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/QuickSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle2.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/acm/XtoN.class" afterPath="$PROJECT_DIR$/bin/com/ding/acm/XtoN.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/algorithm/study1/Zmain.class" afterPath="$PROJECT_DIR$/bin/com/ding/algorithm/study1/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/file/TestFileMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/file/TestFileMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory$OOMObject.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory$OOMObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainVMStackSOF.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainVMStackSOF.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/RuntimeConstantPoolOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM$OOMObject.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM$OOMObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study2JavaVMStackSOF.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study2JavaVMStackSOF.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study4RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study4RuntimeConstantPoolOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study5RuntimeConstantPoolOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study5RuntimeConstantPoolOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM$OOMObject.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM$OOMObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study7DirectMemoryOOM.class" afterPath="$PROJECT_DIR$/bin/com/ding/jvm/Study7DirectMemoryOOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/redis/JedisTools.class" afterPath="$PROJECT_DIR$/bin/com/ding/redis/JedisTools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/redis/SerializeUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/redis/SerializeUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/redis/ZMainRedisHash.class" afterPath="$PROJECT_DIR$/bin/com/ding/redis/ZMainRedisHash.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/reflect/TestClass.class" afterPath="$PROJECT_DIR$/bin/com/ding/reflect/TestClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/report/general/main/MainReportZongBu.class" afterPath="$PROJECT_DIR$/bin/com/ding/report/general/main/MainReportZongBu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/socket/TestClient.class" afterPath="$PROJECT_DIR$/bin/com/ding/socket/TestClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/socket/TestServer.class" afterPath="$PROJECT_DIR$/bin/com/ding/socket/TestServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionary.class" afterPath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionaryTest.class" afterPath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionaryTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/ReadWriteLockMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/ReadWriteLockMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$2.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest.class" afterPath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/ClearUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/ClearUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/CompressUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/CompressUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/CompressUtilBak.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/CompressUtilBak.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/DESUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/DESUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil2.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/ReadExcel.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/ReadExcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/Test$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/Test$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/Test.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/TestSeat.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/TestSeat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/TestSql.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/TestSql.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/AES.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/AES.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Decoder.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Decoder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Encoder.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Encoder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Zmain.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/aes/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/md5/MD5Util.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/md5/MD5Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/util/md5/Zmain.class" afterPath="$PROJECT_DIR$/bin/com/ding/util/md5/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/Wsdl.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/Wsdl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlBindingStub.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlBindingStub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlLocator.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlLocator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlPortType.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlPortType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/com/ding/webservice/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper$1.class" afterPath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper.class" afterPath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Department.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentService.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceMySqlImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceMySqlImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceOracleImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceOracleImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryService.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryServiceMysqlImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryServiceMysqlImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryServiceOracleImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryServiceOracleImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/User.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserService.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserServiceMySqlImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserServiceMySqlImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserServiceOracleImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserServiceOracleImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Ps2Port.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Ps2Port.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Ps2ToUsb.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Ps2ToUsb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/UsbPort.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/UsbPort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Zmain$1.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Zmain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrand.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrandIphone4.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrandIphone4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrandIphone5.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrandIphone5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoft.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoft.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoftAddressList.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoftAddressList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoftGame.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoftGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/Person.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonBuilder.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonBuilderManImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonBuilderManImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonDirector.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonDirector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/Handler.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/Handler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl1.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl2.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl3.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Command.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Command.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/CommandImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/CommandImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Invoker.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Invoker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Receiver.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Receiver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/Company.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/Company.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/CompanyImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/CompanyImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/FinanceDepartment.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/FinanceDepartment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/HRDepartment.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/HRDepartment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/Finery.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/Finery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/IPersonShow.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/IPersonShow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/TShirts.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/TShirts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/ThuaBanXie.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/ThuaBanXie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/TmaoKu.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/TmaoKu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/Facade.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/Facade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemFour.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemFour.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemOne.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemOne.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemThree.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemThree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemTwo.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemTwo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/ZMainTest.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/ZMainTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/Operation.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/Operation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationAdd.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationAdd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationDiv.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationDiv.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationFactory.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationMul.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationMul.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationSub.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationSub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSite.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSiteFactory.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSiteFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSiteImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSiteImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/AbstractExpression.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/AbstractExpression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/Context.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/NonterminalExpression.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/NonterminalExpression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/TerminalExpression.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/TerminalExpression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Aggregate.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Aggregate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/ConcreteAggregate.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/ConcreteAggregate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/ConcreteIterator.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/ConcreteIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Iterator.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Iterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/Country.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/Country.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/Iraq.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/Iraq.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/USA.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/USA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/UnitedNations.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/UnitedNations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/UnitedNationsSecurityCouncil.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/UnitedNationsSecurityCouncil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/ZMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/ZMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/KuiYe.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/KuiYe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/RoleStateCaretaker.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/RoleStateCaretaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/RoleStateMemento.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/RoleStateMemento.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/ATestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/ATestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/AgObserver.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/AgObserver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/AgPrice.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/AgPrice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Observer.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Observer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/ObserverConcrete.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/ObserverConcrete.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Subject.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Subject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/SubjectConcrete.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/SubjectConcrete.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/AbstractPrototype.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/AbstractPrototype.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/ConcretePrototype1.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/ConcretePrototype1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/Prototype.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/Prototype.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/PrototypeImpl1.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/PrototypeImpl1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/PrototypeImpl2.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/PrototypeImpl2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Advice.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Advice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/MyAdvice.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/MyAdvice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Proxy.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Proxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/ProxyUtil$1.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/ProxyUtil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/ProxyUtil.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/ProxyUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Subject.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Subject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/SubjectImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/SubjectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Wan.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Wan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/WanImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/WanImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/WanInvocationImpl.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/WanInvocationImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Zmain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Zmain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/singleton/Singleton.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/singleton/Singleton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/AfternoonState.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/AfternoonState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/EveningState.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/EveningState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/ForenoonState.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/ForenoonState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/NoonState.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/NoonState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/RestState.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/RestState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/SleepingState.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/SleepingState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/State.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/Work.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/Work.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyA.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyA.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyB.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyC.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/Context.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/Strategy.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/Strategy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/TestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaper.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaperXiaoHong.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaperXiaoHong.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaperXiaoMing.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaperXiaoMing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/ZTestMain.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/ZTestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/Person.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonNan.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonNan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonNv.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonNv.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonVisitorTools.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonVisitorTools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/Visitor.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/Visitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/VisitorSaNiao.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/VisitorSaNiao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/VisitorSaPo.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/VisitorSaPo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/ZMainTest.class" afterPath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/ZMainTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/client/MinaTimeClient.class" afterPath="$PROJECT_DIR$/bin/mina/client/MinaTimeClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/client/TimeClientHander.class" afterPath="$PROJECT_DIR$/bin/mina/client/TimeClientHander.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/common/BaseConfig.class" afterPath="$PROJECT_DIR$/bin/mina/common/BaseConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/server/MinaTimeServer.class" afterPath="$PROJECT_DIR$/bin/mina/server/MinaTimeServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/mina/server/TimeServerHandler.class" afterPath="$PROJECT_DIR$/bin/mina/server/TimeServerHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="953fb969-d07b-4aa7-a514-22e6cad0876c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/MyThreadTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/ACM2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm21$CupNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm7_temp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Acm8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/ActiveTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/BaiJiWenTiMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/BinarySeach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/DFS$Stack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/DFS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/QuickSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/Rectangle2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/acm/XtoN.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/algorithm/study1/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/file/TestFileMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/JavaVMStackOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory$OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainOutOfMemory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Jvm2TestMainVMStackSOF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/RuntimeConstantPoolOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM$OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study1HeapOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study2JavaVMStackSOF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study3JavaVMStackOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study4RuntimeConstantPoolOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study5RuntimeConstantPoolOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM$OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study6JavaMethodAreaOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/jvm/Study7DirectMemoryOOM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/redis/JedisTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/redis/SerializeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/redis/ZMainRedisHash.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/reflect/TestClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/report/general/main/MainReportZongBu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/socket/TestClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/socket/TestServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/statistics/lesson1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/RWDictionaryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/study/thread/ReadWriteLock/ReadWriteLockMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/thread/TestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/thread/ThreadPoolExecutorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/ClearUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/CompressUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/CompressUtilBak.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/DESUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/HttpPostUtil2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/ReadExcel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/Test$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/TestSeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/TestSql.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/AES.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Decoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Base64Encoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/aes/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/hosts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/md5/MD5Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/util/md5/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/Wsdl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlBindingStub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlLocator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/WsdlPortType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/webservice/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/ding/zookeeper/TestZookeeper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceMySqlImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/DepartmentServiceOracleImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryServiceMysqlImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/FactoryServiceOracleImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserServiceMySqlImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/UserServiceOracleImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/abstratfactory/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Ps2Port.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Ps2ToUsb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/UsbPort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Zmain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/adapter/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrandIphone4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneBrandIphone5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoft.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoftAddressList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/PhoneSoftGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/bridge/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonBuilderManImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/PersonDirector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/builder/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/Handler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/HandlerImpl3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/chainofresponsibility/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Command.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/CommandImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Invoker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Receiver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/command/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/Company.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/CompanyImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/FinanceDepartment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/HRDepartment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/composite/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/Finery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/IPersonShow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/TShirts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/ThuaBanXie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/TmaoKu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/decorator/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/Facade.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemFour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemOne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemThree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/SystemTwo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/facade/ZMainTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/Operation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationAdd.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationDiv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationMul.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/OperationSub.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/factory/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSiteFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/WebSiteImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/flyweight/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/AbstractExpression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/NonterminalExpression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/TerminalExpression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/interpreter/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Aggregate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/ConcreteAggregate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/ConcreteIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Iterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/iterator/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/Country.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/Iraq.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/USA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/UnitedNations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/UnitedNationsSecurityCouncil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/mediator/ZMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/KuiYe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/RoleStateCaretaker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/RoleStateMemento.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/memento/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/ATestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/AgObserver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/AgPrice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/ObserverConcrete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/SubjectConcrete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/observer/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/AbstractPrototype.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/ConcretePrototype1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/Prototype.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/PrototypeImpl1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/PrototypeImpl2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/prototype/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Advice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/MyAdvice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Proxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/ProxyUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/ProxyUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/SubjectImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Wan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/WanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/WanInvocationImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/proxy/Zmain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/singleton/Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/AfternoonState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/EveningState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/ForenoonState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/NoonState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/RestState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/SleepingState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/Work.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/state/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyA.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/ConcreteStrategyC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/Strategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/strategy/TestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaperXiaoHong.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/TestPaperXiaoMing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/templatemethod/ZTestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonNan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonNv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/PersonVisitorTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/Visitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/VisitorSaNiao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/VisitorSaPo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ding/study/designpatterns/visitor/ZMainTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mina/client/MinaTimeClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mina/client/TimeClientHander.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mina/common/BaseConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mina/server/MinaTimeServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/mina/server/TimeServerHandler.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java" afterPath="$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/redis/JedisTools.java" afterPath="$PROJECT_DIR$/src/com/ding/redis/JedisTools.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java" afterPath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java" afterPath="$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java" />
     </list>
     <ignored path="Study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -252,70 +249,21 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Study" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ding/study/designpatterns/mediator/ZMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Study6JavaMethodAreaOOM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ding/jvm/Study6JavaMethodAreaOOM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpPostUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ding/util/HttpPostUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="244" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-              <folding>
-                <marker date="1568950729277" expanded="false" signature="1181:1208" ph="/unused/" />
-                <marker date="1568950729277" expanded="false" signature="1284:1311" ph="/unused/" />
-                <marker date="1568950729277" expanded="false" signature="1517:1544" ph="/unused/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpPostUtil2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ding/util/HttpPostUtil2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ding/redis/JedisTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1980">
-              <caret line="1431" column="31" lean-forward="true" selection-start-line="1431" selection-start-column="31" selection-end-line="1431" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1568950729307" expanded="false" signature="4010:4018" ph="&lt;~&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -363,6 +311,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -406,8 +357,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -448,11 +398,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="ding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ding" />
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="designpatterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,72 +425,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudyTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1114,45 +1009,54 @@
       <workItem from="1466056099712" duration="6882000" />
       <workItem from="1466564739973" duration="1810000" />
       <workItem from="1466758253943" duration="2699000" />
-      <workItem from="1568949873080" duration="846000" />
+      <workItem from="1568949873080" duration="1650000" />
+      <workItem from="1568963785687" duration="210000" />
     </task>
+    <task id="LOCAL-00001" summary="注释没用的代码">
+      <created>1568950784015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568950784015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12237000" />
+    <option name="totallyTimeSpent" value="13251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1167,7 +1071,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增test" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增test" />
+    <MESSAGE value="注释没用的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释没用的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1182,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1419">
           <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,10 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#292#293#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,10 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990">
           <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1399,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2673">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,10 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1980">
           <caret line="1431" column="31" lean-forward="true" selection-start-line="1431" selection-start-column="31" selection-end-line="1431" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1568950729307" expanded="false" signature="4010:4018" ph="&lt;~&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1434,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,11 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="244" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-          <folding>
-            <marker date="1568950729277" expanded="false" signature="1181:1208" ph="/unused/" />
-            <marker date="1568950729277" expanded="false" signature="1284:1311" ph="/unused/" />
-            <marker date="1568950729277" expanded="false" signature="1517:1544" ph="/unused/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1454,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
